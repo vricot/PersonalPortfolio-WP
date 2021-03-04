@@ -1,0 +1,398 @@
+/* Theme Name: honeysamurai
+Author: Valerie Ricot
+Description: The official theme for honeysamurai
+Version 1.0 */
+
+/* This is the Navigation CSS */
+
+/* Font Awesome */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+/* Inputs */
+
+input,
+textarea {
+    height: 32px;
+    padding: 0px 10px;
+    font-family: monospace;
+    font-size: 12px;
+    border: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Search Box */
+
+#searchbox {
+    position: fixed;
+    right: 5rem;
+    top: -25px;
+    width: 150px;
+    pointer-events: none;
+    z-index: 9999;
+    transition: 0.4s;
+    opacity: 0.9;
+}
+
+#searchbox input {
+    height: 2em;
+    width: 100%;
+}
+
+#searchbox #search-btn,
+#slideout-searchbox #search-btn {
+    height: 24px;
+    width: 24px;
+    background: rgb(218, 217, 217) url('IMG/search-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: initial;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#slideout-menu #search-btn {
+    right: 20%;
+    height: 20px;
+}
+
+#searchbox #search-btn:hover,
+#slideout-menu #search-btn:hover {
+    background: #00ffcc url('IMG/search-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Desktop Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+}
+
+
+nav ul li a.active {
+    background-clip: content-box;
+    background-color: #00ffcc;
+}
+
+#left-nav {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-family: 'Press Start 2P' , monospace;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: inherit;
+    background-color: #ff94db;
+}
+
+
+#left-nav a {
+    padding: 0;
+    color: #c653ff;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+#left-nav a:hover {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+#left-nav ul{
+    display: none;
+   list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#left-nav .nav-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+#right-nav .nav-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+#left-nav .icon {
+    display: flex;
+    align-items: center;
+}
+
+#right-nav .icon {
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    color: #bf3eff;
+}
+
+
+#right-nav {
+    height: 10px;
+    width: 100%;
+    margin-left: 700px;
+    margin-top: 0.8rem;
+    position: fixed;
+    font-family: 'Press Start 2P' , monospace;
+    font-size: 8px;
+    display: flex;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: inherit;
+    margin-left: 1045px;
+    background-color: #ff94db;
+}
+
+#right-nav a {
+    padding: 0;
+    color: #c653ff;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+#right-nav a:hover {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+#right-nav .icon:hover {
+    color: #00ffcc;
+    cursor: pointer;
+}
+
+#right-nav ul {
+    display: none;
+    list-style: none;
+    align-items: right;
+    height: 100%;
+}
+
+#right-nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Search Icon */
+
+#search-icon {
+    color: white;
+    padding: 0 32px 0 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#search-icon:hover {
+    color: pink;
+}
+
+/* Mobile Slideout Menu */
+
+#menu-icon {
+    height: 100%;
+    font-size: 28px;
+    padding: 0 4px;
+    color: mintcream;
+    align-items: center;
+    z-index: 9999;
+}
+
+#slideout-menu {
+    z-index: 9999;
+    position: fixed;
+    transition: 0.4s;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 12px;
+    letter-spacing: 2px;
+}
+
+#slideout-menu form {
+    position: relative;
+}
+
+#slideout-menu ul {
+    transform: translateY(-150%);
+    width: 100%;
+    background: rgb(255, 255, 255, 0.1);   
+    transition: all .5s;
+}
+
+#slideout-menu input[type="checkbox"]:checked + ul {
+    transform: translateY(-6%);
+    width: 100%;
+    background: #ff3399;   
+    transition: all .5s;
+}
+
+#slideout-menu ul {
+    list-style: none;
+    padding: 15px 32px 0 0;
+}
+
+#slideout-menu ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+#slideout-menu a {
+    font-family: 'Press Start 2P' , monospace;
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+#slideout-menu a:hover {
+    cursor: pointer;
+    color: #ccff00;
+}
+
+#slideout-menu input {
+    width: 50%;
+    padding: 0;
+    padding-bottom: 2px;
+    font-family: monospace;
+    font-size: 10px;
+    text-align: center;
+    height: 20px;
+}
+
+#slideout-searchbox {
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#slideout-menu .icon {
+    display: inline;
+}
+
+#slideout-menu label:hover {
+    cursor: pointer;
+}
+
+#slideout-menu input[type="checkbox"]:checked + ul li:nth-child(1){
+    background: rgb(255, 255, 255, 0); 
+    color: #fff;
+}  
+
+#slideout-menu label:before {
+    font-size: 24px;
+    font-family: FontAwesome;
+    content: "\f0c9";
+    text-align: center;
+    color: mintcream;
+}
+
+#slideout-menu label {
+    position: fixed; 
+    top: 8px; 
+    right: 93%; 
+    transition: .4s;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    display:none;
+}
+
+#menu-icon {
+    opacity: 0;
+}
+
+div#menu-icon {
+    height: 0;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width:320px) {
+    #searchbox {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    #slideout-menu #search-btn {
+        right: 22%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #menu-icon {
+        display: none;
+    }
+
+    #slideout-menu {
+        display: none;
+    }
+
+    #slideout-searchbox {
+        display: none;
+    }
+
+    #left-nav ul {
+        display: flex;
+    }
+
+    #left-nav {
+        margin-left: 1rem;
+    }
+
+    #right-nav ul {
+        display: flex;
+    }
+
+    #right-nav {
+        margin-left: 63%;
+    }
+
+    #right-nav .icon {
+        display: inline;
+    }
+
+    #searchbox {
+        display: inline;
+    }
+
+    nav {
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #right-nav {
+        margin-left: 67%;;
+    }
+}
+
+@media only screen and (min-width:1281px) {
+    #right-nav {
+        margin-left: 74%;
+    }
+}
