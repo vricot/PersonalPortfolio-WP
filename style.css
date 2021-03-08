@@ -1194,6 +1194,7 @@ h3, h4 {
     #quote-container {
         position: absolute;
         left: 7%;
+        padding-left: 35px;
     }
 }
 
@@ -1923,7 +1924,7 @@ html, body {
 
 .section-div {
     width: 90%;
-    height: 15rem;
+    height: 20rem;
     margin-bottom: 1rem;
     position: relative;
     left: 5%;
@@ -2239,7 +2240,7 @@ html, body {
 /* Web Developer Header Image */
 
 .header-img-content {
-    width: 50%;
+    width: 70%;
     justify-self: center;
 }
 
@@ -2266,6 +2267,7 @@ html, body {
     top: -7rem;
     box-shadow: inset 5px 5px 5px rgb(226, 173, 182);
 }
+
 .button h3 {
     font-family: 'Press Start 2P', monospace;
     font-size: 16px;
@@ -2327,6 +2329,13 @@ html, body {
     }
     #web-dev-main {
         top: 10rem;
+    }
+    .header-img-content {
+        width: 25%;
+    }
+    #web-dev-title-box {
+    max-width: 60%;
+    margin-left: 15%;
     }
 }
 
@@ -2426,8 +2435,8 @@ html, body {
           display: grid;
           align-content: center;
           position: relative;
-          width: 90%;
-          left: 5%;
+          max-width: 60%;
+          margin-left: 15%;
       }
       .storyteller-button {
           padding-top: 35px;
@@ -2437,6 +2446,10 @@ html, body {
       .storyteller-button h3 {
           font-size: 1.5rem;
       }
+      .buttons-section {
+        max-width: 60%;
+        margin-left: 20%;
+    }
   }
   
 /********* This is the Fashion Page CSS ***********/
@@ -2571,6 +2584,11 @@ html, body {
     }
     .fashion-button h3 {
         font-size: 1.5rem;
+    }
+  
+    #fashion-title-box {
+        max-width: 60%;
+        margin-left: 15%;
     }
 }
 

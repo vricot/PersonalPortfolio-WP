@@ -18,7 +18,7 @@
 
 <main id="fashion-main">
   
-    <section>
+    <section class="buttons-section">
        <a href="https://www.instagram.com/honeysamurai/" target="_blank">
            <div id="portfolio-button" class="button" class="fashion-button">
                <h3>Instagram</h3>
