@@ -25,7 +25,7 @@ while(have_posts()) {
 
 ?>
 
-    <div class="card">
+    <div class="card" id="search-results-card">
         <div class="card-image">
             <a href="<?php the_permalink(); ?>">
                 <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="Card Image" style="max-width: 90%;" class="thumbnail">

@@ -597,7 +597,7 @@ h4 {
   bottom: 0px;
   margin: auto;
   max-width: 16em;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 /********* This is the Home Page CSS **************/
@@ -3036,7 +3036,7 @@ label {
 
 #no-results-title-box {
   position: relative;
-  top: 9rem;
+  top: 10rem;
   width: 90%;
   text-align: center;
   left: 5%;
@@ -3060,6 +3060,7 @@ label {
 #no-results-main {
   text-align: center;
   width: 90%;
+  left: 5%;
 }
 
 .no-results {
@@ -3107,8 +3108,7 @@ label {
 
 #no-results-subscribe {
   position: relative;
-  top: -3rem;
-  left: 10%;
+  max-width: 90%;
 }
 
 .no-results li {
@@ -3155,7 +3155,10 @@ label {
   }
   #no-results-subscribe {
     position: relative;
-    top: -10rem;
+  
+  }
+  #no-results-main {
+    margin-top: -8rem;
   }
 }
 
