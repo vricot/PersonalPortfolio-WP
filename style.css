@@ -2880,6 +2880,7 @@ label {
 #coming-soon-page-heading {
   font-size: 12px;
   padding-bottom: 20px;
+  color: #712f92;
 }
 
 #coming-soon-title-box {
@@ -3135,10 +3136,6 @@ label {
 /* regular tablets */
 
 @media only screen and (min-width: 900px) {
-  .no-results {
-    position: relative;
-    top: -5rem;
-  }
   .no-results h2 {
     font-size: 1.25rem;
     line-height: 1.5rem;
