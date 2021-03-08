@@ -41,6 +41,9 @@
             </div>
          </a>
     </section>
+    <div class="back-to-work">
+        <a href="work">Back To Work Page</a>
+    </div>
 </main>
     
     <div class="back-to-top" class="work-back-to-top" id="fashion-back-to-top">

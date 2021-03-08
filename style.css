@@ -8,32 +8,34 @@ Version 1.0
 /********* Page Reset *********/
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: inherit;
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: inherit;
 }
 body {
-    background-color: #ff94db;
-    margin: 0;
-    padding: 0;
+  background-color: #ff94db;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 p {
-    font-family: monospace;
-    color: white;
+  font-family: monospace;
+  color: white;
 }
 
-h3, h4 {
-    font-family: "Press Start 2P", monospace;
+h3,
+h4 {
+  font-family: "Press Start 2P", monospace;
 }
 
 /********* This is the Honeysamurai Banner CSS ************/
@@ -41,635 +43,634 @@ h3, h4 {
 /* Honeysamurai Banner for Home Page */
 
 #home-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #home-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 13.5em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 13.5em;
 }
 
 /* Honeysamurai Banner for Home Page Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #home-banner-img {
-        position: fixed;
-        top: 3rem;
-    }
+@media only screen and (min-width: 481px) {
+  #home-banner-img {
+    position: fixed;
+    top: 3rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #home-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #home-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #home-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #home-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #home-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #home-banner-img {
+    max-width: 35rem;
+  }
 }
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #home-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #home-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #home-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #home-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* Honeysamurai Banner for About Page */
 
 #about-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #about-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* About Page Honeysamurai Banner Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #about-banner-img {
-        position: fixed;
-        top: 3rem;
-    }
-    #about-banner-img {
-        padding-top: 0;
-        margin-top: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #about-banner-img {
+    position: fixed;
+    top: 3rem;
+  }
+  #about-banner-img {
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #about-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #about-banner-img {
+    max-width: 35rem;
+  }
 }
 
-@media only screen and (min-width:1024px) {
-    #about-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #about-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #about-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #about-banner-img {
+    max-width: 35rem;
+  }
 }
-@media only screen and (min-width:1281px) {
-    #about-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #about-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #about-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #about-banner-img {
+    max-width: 35rem;
+  }
 }
-
 
 /* Honeysamurai Banner for Diary Page */
 
 /* Left as "mobile-banner" and "honeysamurai-banner" due to naming issue */
 
 #mobile-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #honeysamurai-mobile {
-    opacity: 0.9;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Banner Media Queries for Diary Page */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #honeysamurai-mobile { 
-        position: fixed;
-        top: 3rem;
-        padding-top: 0;
-        margin-top: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #honeysamurai-mobile {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #honeysamurai-mobile {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #honeysamurai-mobile {
+    max-width: 35rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #mobile-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #honeysamurai-mobile {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #mobile-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #honeysamurai-mobile {
+    max-width: 35rem;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #mobile-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #honeysamurai-mobile {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #mobile-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #honeysamurai-mobile {
+    max-width: 35rem;
+  }
 }
 
 /* Honeysamurai Banner for Post Page */
 
 #post-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #post-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Honeysamurai Banner Media Queries for Post Page */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #post-banner-img {
-        position: fixed;
-        top: 3rem;
-        padding-top: 0;
-        margin-top: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #post-banner-img {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #post-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #post-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #post-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #post-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #post-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #post-banner-img {
+    max-width: 35rem;
+  }
 }
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #post-banner {
-        position: relative;
-        top: 10rem;
-    }
-    #post-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #post-banner {
+    position: relative;
+    top: 10rem;
+  }
+  #post-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* Honeysamurai Banner for Work Page */
 
 #work-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    left: -4%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: -4%;
 }
 
 #work-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Honeysamurai Banner Media Queries for Work Page */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #work-banner-img{
-        position: fixed;
-        top: 3rem;
-        padding-top: 0;
-        margin-top: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #work-banner-img {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #work-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #work-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #work-banner {
-        position: relative;
-        top: 10rem;
-        width: 90%;
-        left: 5%;
-    }
-    #work-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #work-banner {
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    left: 5%;
+  }
+  #work-banner-img {
+    max-width: 35rem;
+  }
 }
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #work-banner {
-        display: none;
-    }
+@media only screen and (min-width: 1281px) {
+  #work-banner {
+    display: none;
+  }
 }
 
 /* Honeysamurai Banner for Web Developer Page */
 
 #web-dev-banner {
-    display: none;
-    /*display: flex;*/
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    left: -4%;
+  display: none;
+  /*display: flex;*/
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: -4%;
 }
 
 #web-dev-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Honeysamurai Banner Media Queries for Web Developer Page */
-  
-  /* small tablets */
-  
-  @media only screen and (min-width:481px) {
-      #web-dev-banner-img {
-          position: fixed;
-          top: 3rem;
-          padding-top: 0;
-          margin-top: 0;
-      }
+
+/* small tablets */
+
+@media only screen and (min-width: 481px) {
+  #web-dev-banner-img {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
   }
-  
-  /* regular tablets */
-  
-  @media only screen and (min-width:900px) {
-      #web-dev-banner-img {
-          max-width: 35rem;
-      }
+}
+
+/* regular tablets */
+
+@media only screen and (min-width: 900px) {
+  #web-dev-banner-img {
+    max-width: 35rem;
   }
-  
-  /* big tablets, laptops, desktops */
-  
-  @media only screen and (min-width:1024px) {
-      #web-dev-banner {
-          position: relative;
-          top: 10rem;
-          width: 90%;
-          left: 5%;
-      }
-      #web-dev-banner-img {
-          max-width: 35rem;
-      }
+}
+
+/* big tablets, laptops, desktops */
+
+@media only screen and (min-width: 1024px) {
+  #web-dev-banner {
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    left: 5%;
   }
-  
-  /* hi-res laptops and desktops */
-  
-  @media only screen and (min-width:1281px) {
-      #web-dev-banner {
-          display: none;
-      }
+  #web-dev-banner-img {
+    max-width: 35rem;
   }
-  
+}
+
+/* hi-res laptops and desktops */
+
+@media only screen and (min-width: 1281px) {
+  #web-dev-banner {
+    display: none;
+  }
+}
+
 /* Honeysamurai Banner for Storyteller Page */
 
 #storyteller-banner {
-    display: none;
-    /*display: flex;*/
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    left: -4%;
+  display: none;
+  /*display: flex;*/
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: -4%;
 }
 
 #storyteller-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Honeysamurai Banner Media Queries for Storyteller Page */
 
-  /* small tablets */
-  
-  @media only screen and (min-width:481px) {
-      #storyteller-banner-img {
-          position: fixed;
-          top: 3rem;
-          padding-top: 0;
-          margin-top: 0;
-      }
+/* small tablets */
+
+@media only screen and (min-width: 481px) {
+  #storyteller-banner-img {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
   }
-  
-  /* regular tablets */
-  
-  @media only screen and (min-width:900px) {
-      #storyteller-banner-img {
-          max-width: 35rem;
-      }
+}
+
+/* regular tablets */
+
+@media only screen and (min-width: 900px) {
+  #storyteller-banner-img {
+    max-width: 35rem;
   }
-  
-  /* big tablets, laptops, desktops */
-  
-  @media only screen and (min-width:1024px) {
-      #storyteller-banner {
-          position: relative;
-          top: 10rem;
-          width: 90%;
-          left: 5%;
-      }
-      #storyteller-banner-img {
-          max-width: 35rem;
-      }
+}
+
+/* big tablets, laptops, desktops */
+
+@media only screen and (min-width: 1024px) {
+  #storyteller-banner {
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    left: 5%;
   }
-  
-  /* hi-res laptops and desktops */
-  
-  @media only screen and (min-width:1281px) {
-      #storyteller-banner {
-          display: none;
-      }
+  #storyteller-banner-img {
+    max-width: 35rem;
   }
+}
+
+/* hi-res laptops and desktops */
+
+@media only screen and (min-width: 1281px) {
+  #storyteller-banner {
+    display: none;
+  }
+}
 
 /* Honeysamurai Banner for Fashion Page */
 
 #fashion-banner {
-    display: none;
-    /*display: flex;*/
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    left: -4%;
+  display: none;
+  /*display: flex;*/
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: -4%;
 }
 
 #fashion-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Media Queries for Fashion Honeysamurai Banner */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #fashion-banner-img {
-        position: fixed;
-        top: 3rem;
-        padding-top: 0;
-        margin-top: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #fashion-banner-img {
+    position: fixed;
+    top: 3rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #fashion-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 900px) {
+  #fashion-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #fashion-banner {
-        position: relative;
-        top: 10rem;
-        width: 90%;
-        left: 5%;
-    }
-    #fashion-banner-img {
-        max-width: 35rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #fashion-banner {
+    position: relative;
+    top: 10rem;
+    width: 90%;
+    left: 5%;
+  }
+  #fashion-banner-img {
+    max-width: 35rem;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #fashion-banner {
-        display: none;
-    }
+@media only screen and (min-width: 1281px) {
+  #fashion-banner {
+    display: none;
+  }
 }
 
 /* Honeysamurai Banner for Contact Page */
 
 #contact-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  margin-bottom: 1rem;
 }
 
 #contact-banner-img {
-    opacity: 0.9;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 3em;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 3em;
 }
 
 /* Honeysamurai Banner for Coming Soon Page */
 
 #coming-soon-banner {
-    display: none;
-    /*display: flex;*/
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    left: -4%;
+  display: none;
+  /*display: flex;*/
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  left: -4%;
 }
 
 #coming-soon-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /* Honeysamurai Banner for No Results Page */
 
 #no-results-banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #no-results-banner-img {
-    opacity: 0.9;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    margin: auto;
-    max-width: 16em;
-    margin-top: 2em;
+  opacity: 0.9;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  max-width: 16em;
+  margin-top: 2em;
 }
 
 /********* This is the Home Page CSS **************/
 
 #enter {
-    display: flex;
-    justify-content: center;
-    margin-top: 20em;
+  display: flex;
+  justify-content: center;
+  margin-top: 20em;
 }
 
 #enter a {
-    font-family: 'Press Start 2P' , monospace;
-    text-decoration: none;
-    font-size: 12px;
+  font-family: "Press Start 2P", monospace;
+  text-decoration: none;
+  font-size: 12px;
 }
 
 #enter a:hover {
-    color: #00ffcc;
+  color: #00ffcc;
 }
 
 /******** Home Page Media Queries ************/
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #enter {
-        position: relative;
-        top: 3rem;
-    }
+@media only screen and (min-width: 481px) {
+  #enter {
+    position: relative;
+    top: 3rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #enter {
-        position: relative;
-        top: 12.5rem;
-    }
-    #enter a {
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 900px) {
+  #enter {
+    position: relative;
+    top: 12.5rem;
+  }
+  #enter a {
+    font-size: 1.2rem;
+  }
 }
 
-@media only screen and (min-width:970px) {
-    #enter {
-        position: relative;
-        top: 12.5rem;
-    }
-    #enter a {
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 970px) {
+  #enter {
+    position: relative;
+    top: 12.5rem;
+  }
+  #enter a {
+    font-size: 1.2rem;
+  }
 }
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #enter {
-        position: relative;
-        top: 12.5rem;
-    }
-    #enter a {
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #enter {
+    position: relative;
+    top: 12.5rem;
+  }
+  #enter a {
+    font-size: 1.2rem;
+  }
 }
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #enter {
-        position: relative;
-        top: 12.5rem;
-    }
-    #enter a {
-        font-size: 1.2rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #enter {
+    position: relative;
+    top: 12.5rem;
+  }
+  #enter a {
+    font-size: 1.2rem;
+  }
 }
 
 /********* This is the About Page CSS **************/
@@ -677,21 +678,22 @@ h3, h4 {
 /* Overall Page Container */
 
 #about-main {
-    text-align: left;
-    position: relative;
-    top: -.5rem;
+  text-align: left;
+  position: relative;
+  top: -0.5rem;
 }
 
 #page-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    margin-top: 10rem;
-    max-width: 90%;
-    position: relative;
-    left: 5%;
-    right: 5%;
-    grid-template-areas: "about about"
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 10rem;
+  max-width: 90%;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  grid-template-areas:
+    "about about"
     "quote quote"
     "education education"
     "luna status"
@@ -701,502 +703,506 @@ h3, h4 {
 /* Names */
 
 #name-container {
-    font-size: 10px;
-    height: 2rem;
-    width: 9rem;
-    order: 1;
-    grid-area: name;
-    position: relative;
-    bottom: 0px;
+  font-size: 10px;
+  height: 2rem;
+  width: 9rem;
+  order: 1;
+  grid-area: name;
+  position: relative;
+  bottom: 0px;
 }
 
 #name-container h3 {
-    font-size: .6rem;
+  font-size: 0.6rem;
 }
 
-#name-container h3, p {
-    margin-top: 2px;
-    margin-left: 5px;
+#name-container h3,
+p {
+  margin-top: 2px;
+  margin-left: 5px;
 }
 
 /* Profile Picture */
 
 #img-container {
-    height: 12.5rem;
-    width: 9rem;
-    position: relative;
-    top: -4.5rem;
-    order: 3;
-    grid-area: img;
+  height: 12.5rem;
+  width: 9rem;
+  position: relative;
+  top: -4.5rem;
+  order: 3;
+  grid-area: img;
 }
 
 #img-container img {
-    margin-top: 5px;
-    width: 125px;
-    margin-left: 8px;
-    }
+  margin-top: 5px;
+  width: 125px;
+  margin-left: 8px;
+}
 
 /* About */
 
 #about-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-areas: "name basic"
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "name basic"
     "img basic"
     "intro intro";
-    grid-area: about;
-    max-width: 90vw;
-    padding: none;
-    background-color: rgba(252, 234, 247);
-    border-style: solid;
-    box-shadow: 0px 10px #ff3399d7;
-    border-color: #ff3399;
-    }
-
-#about-container h3, h4 {
-    color: #ff3399;
+  grid-area: about;
+  max-width: 90vw;
+  padding: none;
+  background-color: rgba(252, 234, 247);
+  border-style: solid;
+  box-shadow: 0px 10px #ff3399d7;
+  border-color: #ff3399;
 }
-   
+
+#about-container h3,
+h4 {
+  color: #ff3399;
+}
+
 #basic-info-container {
-    height: 13.5rem;
-    order: 2;
-    font-size: 12px;
-    grid-area: basic;
-    padding: 6px;
-    position: relative;
+  height: 13.5rem;
+  order: 2;
+  font-size: 12px;
+  grid-area: basic;
+  padding: 6px;
+  position: relative;
 }
 
 #basic-info-container h4 {
-    font-size: .5rem;
-    margin-left: 5px;
+  font-size: 0.5rem;
+  margin-left: 5px;
 }
 
 #basic-info-container p {
-    line-height: 1.5;
-    margin-bottom: 6px;
+  line-height: 1.5;
+  margin-bottom: 6px;
 }
 
 #intro-container {
-    order: 4;
-    position: relative;
-    grid-area: intro;
-    position: relative;
-    top: -4rem;
-    padding: 5px;
-    font-size: 13.5px;
+  order: 4;
+  position: relative;
+  grid-area: intro;
+  position: relative;
+  top: -4rem;
+  padding: 5px;
+  font-size: 13.5px;
 }
 
 #intro-container h3 {
-    font-size: .6rem;
-    margin-left: 5px;
+  font-size: 0.6rem;
+  margin-left: 5px;
 }
 
 /* Education */
 
 #education-container {
-    background-color: rgba(252, 234, 247);
-    height: 10rem;
-    max-width: 90vw;
-    font-size: 12px;
-    grid-area: education;
-    padding: 5px;
-    position: relative;
-    top: 4rem;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399e0;
+  background-color: rgba(252, 234, 247);
+  height: 10rem;
+  max-width: 90vw;
+  font-size: 12px;
+  grid-area: education;
+  padding: 5px;
+  position: relative;
+  top: 4rem;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399e0;
 }
 
 #education-container h3 {
-    margin-left: 5px;
-    font-size: .6rem;
-    color: #ff3399;
+  margin-left: 5px;
+  font-size: 0.6rem;
+  color: #ff3399;
 }
 
 #education-container p {
-    margin-bottom: .50rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Quote */
 
 #quote-container {
-    background-color: rgba(252, 234, 247);
-    height: 6rem;
-    max-width: 90vw;
-    position: relative;
-    top: 2rem;
-    grid-area: quote;
-    padding: 5px;
-    padding-bottom: 10px;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399e3;
+  background-color: rgba(252, 234, 247);
+  height: 6rem;
+  max-width: 90vw;
+  position: relative;
+  top: 2rem;
+  grid-area: quote;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399e3;
 }
 
 #quote-container p {
-    font-family: "Press Start 2P", monospace;
-    font-size: 12px;
-    line-height: 1.2;
-    color: #ff3399;
+  font-family: "Press Start 2P", monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #ff3399;
 }
 
 /* Audio */
 
 #luna-container {
-    height: 6rem;
-    position: relative;
-    top: 6rem;
-    grid-area: luna;
-    padding: 5px;
-    margin-right: .5rem;
+  height: 6rem;
+  position: relative;
+  top: 6rem;
+  grid-area: luna;
+  padding: 5px;
+  margin-right: 0.5rem;
 }
 
 #audio {
-    padding-left: 5px;
-    width: 210px;
-    position: relative;
-    top: 1rem;
+  padding-left: 5px;
+  width: 210px;
+  position: relative;
+  top: 1rem;
 }
 
 /* Luna IMG */
 
 #luna {
-    margin-top: 13px;
-    width: 100%;
-    
+  margin-top: 13px;
+  width: 100%;
 }
 
 /* Status */
 
 #status-container {
-    background-color: rgba(252, 234, 247);
-    position: relative;
-    top: 6rem;
-    height: 6rem;
-    grid-area: status;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399e7;
+  background-color: rgba(252, 234, 247);
+  position: relative;
+  top: 6rem;
+  height: 6rem;
+  grid-area: status;
+  padding: 5px;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399e7;
 }
 
 #status-container h4 {
-    font-size: .7rem;
-    margin-left: 5px;
-    color: #ff3399;
-    margin-bottom: .25rem;
+  font-size: 0.7rem;
+  margin-left: 5px;
+  color: #ff3399;
+  margin-bottom: 0.25rem;
 }
 
 #status-container p {
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Favorites */
 
 #favorites-container {
-    background-color: rgba(252, 234, 247);
-    grid-area: favorites;
-    position: relative;
-    top: 8.5rem;
-    margin-bottom: 20%;
-    max-width: 90vw;
-    font-size: 14px;
-    padding-top: 8px;
-    padding-left: 5px;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399c4;
+  background-color: rgba(252, 234, 247);
+  grid-area: favorites;
+  position: relative;
+  top: 8.5rem;
+  margin-bottom: 20%;
+  max-width: 90vw;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-left: 5px;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399c4;
 }
 
 #favorites-container h3 {
-    font-size: .6rem;
-    margin-left: 5px;
+  font-size: 0.6rem;
+  margin-left: 5px;
 }
 
-#favorites-container h3, p {
-    color: #ff3399;
+#favorites-container h3,
+p {
+  color: #ff3399;
 }
 
 #favorites-container h3 {
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #favorites-container p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-/* About Page Media Queries */ 
+/* About Page Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #luna {
-        width: 160px;
-        position: relative;
-        top: -.5rem;
-        margin-left: 10%;
-    }
-    #about-main {
-        position: relative;
-        top: 0rem;
-    }
+@media only screen and (min-width: 481px) {
+  #luna {
+    width: 160px;
+    position: relative;
+    top: -0.5rem;
+    margin-left: 10%;
+  }
+  #about-main {
+    position: relative;
+    top: 0rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #page-container {
-        position: relative;
-        top: 9rem;
-    }
-    #about-container {
-        width: 50%;
-        padding-bottom: 9rem;
-    }
-    #name-container h3, p {
-        font-size: 1rem;
-    }
-    #img-container {
-        position: relative;
-        margin-top: 6px;
-    }
-    #img-container img {
-        width: 210px;
-    }
-    #basic-info-container {
-        position: relative;
-        top: 2rem;
-        left: 1rem;
-    }
-    #basic-info-container h4 {
-        font-size: .8rem;
-    }
-    #basic-info-container p {
-        font-size: 1.3rem;
-    }
-    #intro-container {
-        position: relative;
-        top: 5rem;
-    }
-    #intro-container p {
-        font-size: 1.5rem;
-    }
-    #intro-container h3 {
-        font-size: 1rem;
-    }
-    #audio {
-        margin-top: 1rem;
-        width: 20rem;
-    }
-    #quote-container {
-        width: 45%;
-        padding-bottom: 5rem;
-        margin-top: -30rem;
-        margin-left: 27rem;
-        border-style: none;
-        box-shadow: none;
-        background: none;
-        padding-bottom: 10rem;
-    }
-    #quote-container p {
-        font-size: 1.1rem;
-        line-height: 2rem;
-        color: rgb(255, 255, 255);
-        text-shadow: 0px 5px 2px #ff3399;
-    }
-    #education-container {
-        width: 45%;
-        position: absolute;
-        margin-top: -64rem;
-        padding-bottom: 11rem;
-        padding-top: 1rem;
-        left: 27rem;
-    }
-    #education-container h3 {
-        font-size: 1rem;
-    }
-    #education-container p {
-        font-size: 1.5rem;
-    }
-    #status-container {
-        position: relative;
-        top: -22rem;
-        left: 9.5rem;
-        width: 60%;
-        padding-bottom: 2rem;
-    }
-    #status-container h4 {
-        font-size: 1rem;
-    }
-    #status-container p {
-        font-size: 1.5rem;
-    }
-    #luna-container {
-        position: relative;
-        top: -9rem;
-        left: 30%;
-    }
-    #luna {
-        width: 400px;
-    }
-    #favorites-container {
-        position: relative;
-        top: 2.5rem;
-    }
-    #favorites-container h3 {
-        font-size: 1rem;
-    }
-    #favorites-container p {
-        font-size: 1.5rem;
-    }
+@media only screen and (min-width: 900px) {
+  #page-container {
+    position: relative;
+    top: 9rem;
+  }
+  #about-container {
+    width: 50%;
+    padding-bottom: 9rem;
+  }
+  #name-container h3,
+  p {
+    font-size: 1rem;
+  }
+  #img-container {
+    position: relative;
+    margin-top: 6px;
+  }
+  #img-container img {
+    width: 210px;
+  }
+  #basic-info-container {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+  }
+  #basic-info-container h4 {
+    font-size: 0.8rem;
+  }
+  #basic-info-container p {
+    font-size: 1.3rem;
+  }
+  #intro-container {
+    position: relative;
+    top: 5rem;
+  }
+  #intro-container p {
+    font-size: 1.5rem;
+  }
+  #intro-container h3 {
+    font-size: 1rem;
+  }
+  #audio {
+    margin-top: 1rem;
+    width: 20rem;
+  }
+  #quote-container {
+    width: 45%;
+    padding-bottom: 5rem;
+    margin-top: -30rem;
+    margin-left: 27rem;
+    border-style: none;
+    box-shadow: none;
+    background: none;
+    padding-bottom: 10rem;
+  }
+  #quote-container p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 2px #ff3399;
+  }
+  #education-container {
+    width: 45%;
+    position: absolute;
+    margin-top: -64rem;
+    padding-bottom: 11rem;
+    padding-top: 1rem;
+    left: 27rem;
+  }
+  #education-container h3 {
+    font-size: 1rem;
+  }
+  #education-container p {
+    font-size: 1.5rem;
+  }
+  #status-container {
+    position: relative;
+    top: -22rem;
+    left: 9.5rem;
+    width: 60%;
+    padding-bottom: 2rem;
+  }
+  #status-container h4 {
+    font-size: 1rem;
+  }
+  #status-container p {
+    font-size: 1.5rem;
+  }
+  #luna-container {
+    position: relative;
+    top: -9rem;
+    left: 30%;
+  }
+  #luna {
+    width: 400px;
+  }
+  #favorites-container {
+    position: relative;
+    top: 2.5rem;
+  }
+  #favorites-container h3 {
+    font-size: 1rem;
+  }
+  #favorites-container p {
+    font-size: 1.5rem;
+  }
 }
 
-@media only screen and (min-width:930px) {
-    #education-container {
-        position: absolute;
-        top: 6rem;
-        left: 53%;
-    }
-    #quote-container {
-        position: absolute;
-        left: 5%;
-    }
+@media only screen and (min-width: 930px) {
+  #education-container {
+    position: absolute;
+    top: 6rem;
+    left: 53%;
+  }
+  #quote-container {
+    position: absolute;
+    left: 5%;
+  }
 }
 
-@media only screen and (min-width:970px) {
-    #education-container {
-        position: relative;
-        left: 29rem;
-        margin-top: -64rem;
-    }
-    #quote-container {
-        margin-left: 29rem;
-    }
-    #status-container {
-        position: relative;
-        left: 10rem;
-    }
-    #luna-container {
-        left: 40%;
-    }
+@media only screen and (min-width: 970px) {
+  #education-container {
+    position: relative;
+    left: 29rem;
+    margin-top: -64rem;
+  }
+  #quote-container {
+    margin-left: 29rem;
+  }
+  #status-container {
+    position: relative;
+    left: 10rem;
+  }
+  #luna-container {
+    left: 40%;
+  }
 }
 
-@media only screen and (min-width:1058px) {
-    #education-container {
-        position: absolute;
-        top: 8rem;
-    }
-    #quote-container {
-        position: absolute;
-        top: 5rem;
-    }
+@media only screen and (min-width: 1058px) {
+  #education-container {
+    position: absolute;
+    top: 8rem;
+  }
+  #quote-container {
+    position: absolute;
+    top: 5rem;
+  }
 }
 
-@media only screen and (min-width:1080px) {
-    #education-container {
-        position: absolute;
-        top: 10rem;
-        margin-left: 3rem;
-    }
-    #quote-container {
-        position: absolute;
-        top: 7rem;
-        left: 5%;
-    }
- }
+@media only screen and (min-width: 1080px) {
+  #education-container {
+    position: absolute;
+    top: 10rem;
+    margin-left: 3rem;
+  }
+  #quote-container {
+    position: absolute;
+    top: 7rem;
+    left: 5%;
+  }
+}
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #education-container {
-        position: relative;
-        left: 31rem;
-        margin-top: -64rem;
-    }
-    #quote-container {
-        margin-left: 31rem;
-    }
-    #status-container {
-        position: relative;
-        left: 11rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #education-container {
+    position: relative;
+    left: 31rem;
+    margin-top: -64rem;
+  }
+  #quote-container {
+    margin-left: 31rem;
+  }
+  #status-container {
+    position: relative;
+    left: 11rem;
+  }
 }
 
-@media only screen and (min-width:1179px) {
-    #education-container {
-        position: absolute;
-        left: 48%;
-    }
-    #quote-container {
-        position: absolute;
-        left: 7%;
-    }
+@media only screen and (min-width: 1179px) {
+  #education-container {
+    position: absolute;
+    left: 48%;
+  }
+  #quote-container {
+    position: absolute;
+    left: 7%;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #education-container {
-        position: relative;
-        left: 38.5rem;
-        top: 12rem;
-        margin-top: -64rem;
-    }
-    #quote-container {
-        margin-left: 38.5rem;
-        top: 10rem;
-        padding-bottom: 20rem;
-    }
-    #quote-container p {
-        font-size: 1.7rem;
-        line-height: 2.8rem;
-    }
-    #status-container {
-        position: relative;
-        left: 13.5rem;
-        margin-top: 22rem;
-        padding-bottom: 5rem;
-        padding-top: 1rem;
-    }
-    #status-container h4 {
-        font-size: 1.5rem;
-    }
-    #status-container p {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-    #luna-container {
+@media only screen and (min-width: 1281px) {
+  #education-container {
+    position: relative;
+    left: 38.5rem;
+    top: 12rem;
+    margin-top: -64rem;
+  }
+  #quote-container {
+    margin-left: 38.5rem;
+    top: 10rem;
+    padding-bottom: 20rem;
+  }
+  #quote-container p {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+  }
+  #status-container {
+    position: relative;
+    left: 13.5rem;
+    margin-top: 22rem;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+  #status-container h4 {
+    font-size: 1.5rem;
+  }
+  #status-container p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  #luna-container {
     position: relative;
     left: -10%;
-    }
-    #luna {
+  }
+  #luna {
     width: 550px;
     margin-top: 5rem;
-    }
-    #favorites-container {
-        margin-top: -13rem;
-        padding-top: 1rem;
-    }
-    #favorites-container h3 {
-        font-size: 1.15rem;
-    }
-    #favorites-container p {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
+  }
+  #favorites-container {
+    margin-top: -13rem;
+    padding-top: 1rem;
+  }
+  #favorites-container h3 {
+    font-size: 1.15rem;
+  }
+  #favorites-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 
-@media only screen and (min-width:1300px) {
-    #education-container {
-        position: absolute;
-        left: 49%;
-    }
-    #quote-container {
-        position: absolute;
-        left: 7%;
-        padding-left: 35px;
-    }
+@media only screen and (min-width: 1300px) {
+  #education-container {
+    position: absolute;
+    left: 49%;
+  }
+  #quote-container {
+    position: absolute;
+    left: 7%;
+    padding-left: 35px;
+  }
 }
 
 /***********This is the Diary Blog Page CSS *************/
@@ -1204,319 +1210,319 @@ h3, h4 {
 /* Diary Page Heading */
 
 .page-heading {
-    font-size: 22px;
-    font-family: 'Press Start 2P', monospace;
-    color: #ff3399;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    letter-spacing: .5rem;
-    text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Press Start 2P", monospace;
+  color: #ff3399;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
 }
 
 /* left as "#title-box" due to naming issue */
 
 #title-box {
-    position: relative;
-    top: 9.5rem;
-    bottom: 0px;
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 6px #ff3399d3;
-    width: 90%;
-    position: relative;
-    left: 5%;
-    right: 5%;
+  position: relative;
+  top: 9.5rem;
+  bottom: 0px;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 6px #ff3399d3;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  right: 5%;
 }
 
 /* Diary Page */
 
 main {
-    position: relative;
-    top: 9rem;
-    padding-top: 0px;
-    padding-bottom: 8%;
-    margin-bottom: 30px;
-    text-align: center;
+  position: relative;
+  top: 9rem;
+  padding-top: 0px;
+  padding-bottom: 8%;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .card-description {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .card-description h3 {
-    font-family: "Press Start 2P", monospace;
-    color: #ff3399;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #00ffcc;
-    margin-bottom: 10px;
+  font-family: "Press Start 2P", monospace;
+  color: #ff3399;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #00ffcc;
+  margin-bottom: 10px;
 }
 
 .card-description a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card-description h3:hover {
-    color: #ccff00;
+  color: #ccff00;
 }
 
 .card-meta {
-    font-family: monospace;
-    color: #ff3399;
-    margin-bottom: 15px;
+  font-family: monospace;
+  color: #ff3399;
+  margin-bottom: 15px;
 }
 
 .card-meta ul {
-    list-style: none;
+  list-style: none;
 }
 
 .card-meta a {
-    color: #00ffcc;
+  color: #00ffcc;
 }
 
 .card-meta a:hover {
-    color: #ccff00;
+  color: #ccff00;
 }
 
 .card-image {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card {
-    margin-top: 30px;
-    background-color: rgba(252, 234, 247);
-    padding-top: 30px;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399e3;
+  margin-top: 30px;
+  background-color: rgba(252, 234, 247);
+  padding-top: 30px;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399e3;
 }
 
 .card p {
-    font-family: monospace;
-    color: #ff3399;
+  font-family: monospace;
+  color: #ff3399;
 }
 
 .btn-readmore {
-    font-family: monospace;
-    color: #00ffcc;
-    font-family: 'Press Start 2P', monospace;
-    font-size: 10px;
-    position: relative;
-    top: .30rem;
-    text-transform: lowercase;
+  font-family: monospace;
+  color: #00ffcc;
+  font-family: "Press Start 2P", monospace;
+  font-size: 10px;
+  position: relative;
+  top: 0.3rem;
+  text-transform: lowercase;
 }
 
 .btn-readmore:hover {
-    color: #ccff00;
-    cursor: pointer;
+  color: #ccff00;
+  cursor: pointer;
 }
 
 /* Diary Pagination */
 
 .pagination {
-    display: inline-block;
-    justify-content: center;
-    margin-top: 22px;
-    font-family: 'Press Start 2P', monospace;
-    font-size: 10px;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 22px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 10px;
 }
 
 .pagination a {
-    text-decoration: none;
-    color: #00ffcc;
+  text-decoration: none;
+  color: #00ffcc;
 }
 
 .pagination a:hover {
-    color: #ff3399;
+  color: #ff3399;
 }
 
 /*Subscribe Form*/
 
 .subscribe-container {
-    background-color: rgba(255, 255, 255, 0.897);
-    margin-top: 18px;
-    width: 90%;
-    position: relative;
-    left: 3.5%;
-    right: 5.5%;
-    display: grid;
-    padding-top: 10px;
-    padding-left: 10px;
-    text-align: left;
+  background-color: rgba(255, 255, 255, 0.897);
+  margin-top: 18px;
+  width: 90%;
+  position: relative;
+  left: 3.5%;
+  right: 5.5%;
+  display: grid;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 .subscribe-container h3 {
-    font-family: monospace;
-    color: #ff3399;
-    margin-bottom: 15px;
-    background-color: #00ffcc;
-    position: relative;
-    right: 1.5%;
-    text-align: center;
+  font-family: monospace;
+  color: #ff3399;
+  margin-bottom: 15px;
+  background-color: #00ffcc;
+  position: relative;
+  right: 1.5%;
+  text-align: center;
 }
 
 .subscribe-container input {
-    margin-bottom: 20px;
-    color: #ff3399;
+  margin-bottom: 20px;
+  color: #ff3399;
 }
 
 #subscribe-btn:hover {
-    cursor: pointer;
-    color: #00ffcc;
-    background-color: #ff3399;
+  cursor: pointer;
+  color: #00ffcc;
+  background-color: #ff3399;
 }
 
 /* Diary Blog Page Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #title-box {
-        margin-top: 1rem;
-    }
-    .subscribe-container h3 {
-        width: 62%;
-        left: 16.5%;
-    }
-    .subscribe-container {
+@media only screen and (min-width: 481px) {
+  #title-box {
+    margin-top: 1rem;
+  }
+  .subscribe-container h3 {
+    width: 62%;
+    left: 16.5%;
+  }
+  .subscribe-container {
     left: 4%;
     right: 5%;
-    }
+  }
 }
 
-@media only screen and (min-width:561px) {
-    .card-image {
-        display: grid;
-        justify-content: center;
-        }
-    }
+@media only screen and (min-width: 561px) {
+  .card-image {
+    display: grid;
+    justify-content: center;
+  }
+}
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #title-box {
-        position: relative;
-        top: 17rem;
-        box-shadow: 0px 15px #ff3399;
-    }
-    main {
-        position: relative;
-        top: 15rem;
-    }
-    .card {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        position: relative;
-        margin-top: 70px;
-        box-shadow: 0rem 1.5rem #ff3399e3;
-        padding-bottom: .5rem;
-        width: 90%;
-        position: relative;
-        left: 5%;
-    }
-    .card-image {
-        display: grid;
-        justify-content: center;
-    }
-    .card-description p {
-        font-size: 2rem;
-    }
-    .btn-readmore {
-        font-size: 1.5rem;
-    }
-    .pagination {
-        font-size: 1rem;
-        margin-top: 4rem;
-    }
-    .subscribe-container {
-        left: 4.5%;
-        right: 5.5%;
-        }
-    .subscribe-container h3 {
-        position: relative;
-        right: .6%;
-    }
-    .subscribe-container input {
-        margin-right: 45px;
-    }
-    .subscribe-container h3 {
-        width: 35%;
-        left: 30%;
-    }
-}   
+@media only screen and (min-width: 900px) {
+  #title-box {
+    position: relative;
+    top: 17rem;
+    box-shadow: 0px 15px #ff3399;
+  }
+  main {
+    position: relative;
+    top: 15rem;
+  }
+  .card {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    position: relative;
+    margin-top: 70px;
+    box-shadow: 0rem 1.5rem #ff3399e3;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+  .card-image {
+    display: grid;
+    justify-content: center;
+  }
+  .card-description p {
+    font-size: 2rem;
+  }
+  .btn-readmore {
+    font-size: 1.5rem;
+  }
+  .pagination {
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
+  .subscribe-container {
+    left: 4.5%;
+    right: 5.5%;
+  }
+  .subscribe-container h3 {
+    position: relative;
+    right: 0.6%;
+  }
+  .subscribe-container input {
+    margin-right: 45px;
+  }
+  .subscribe-container h3 {
+    width: 35%;
+    left: 30%;
+  }
+}
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    .subscribe-container {
-        height: 170px;
-    }
-    .subscribe-container h3 {
-        position: relative;
-        font-size: 2rem;
-        width: 60%;
-        left: 20%;
-    }
-    .subscribe-container input {
-        margin-top: 5px;
-        margin-right: 45px;
-        margin-bottom: 25px;
-        font-size: 2rem;
-    }
+@media only screen and (min-width: 1024px) {
+  .subscribe-container {
+    height: 170px;
+  }
+  .subscribe-container h3 {
+    position: relative;
+    font-size: 2rem;
+    width: 60%;
+    left: 20%;
+  }
+  .subscribe-container input {
+    margin-top: 5px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #title-box {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-    }
-    .card {
-        line-height: 3rem;
-        padding-bottom: 2rem;
-    }
-    .card-description p {
-        font-size: 3rem;
-    }
-    .card-description h3 {
-        letter-spacing: 1rem;
-        font-size: 3rem;
-        margin-top: 2rem;
-        margin-bottom: 1.5rem;
-    }
-    .card-meta {
-        font-size: 2.5rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #title-box {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card {
+    line-height: 3rem;
+    padding-bottom: 2rem;
+  }
+  .card-description p {
+    font-size: 3rem;
+  }
+  .card-description h3 {
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-meta {
+    font-size: 2.5rem;
+  }
 
-    .btn-readmore {
-        font-size: 2rem;
-        position: relative;
-        top: 1rem;
-    }
-    .subscribe-container {
-        height: 600px;
-    }
-    .subscribe-container h3 {
-        width: 60%;
-        margin-top: 40px;
-        left: 20%;
-        font-size: 3rem;
-    }
-    .subscribe-container input {
-        font-size: 3rem;
-        padding: 30px;
-        padding-bottom: 55px;
-        margin-top: 20px;
-    }
+  .btn-readmore {
+    font-size: 2rem;
+    position: relative;
+    top: 1rem;
+  }
+  .subscribe-container {
+    height: 600px;
+  }
+  .subscribe-container h3 {
+    width: 60%;
+    margin-top: 40px;
+    left: 20%;
+    font-size: 3rem;
+  }
+  .subscribe-container input {
+    font-size: 3rem;
+    padding: 30px;
+    padding-bottom: 55px;
+    margin-top: 20px;
+  }
 }
 
 /********* This is the Post Page CSS **********/
@@ -1536,265 +1542,265 @@ html, body {
 /* Post Page Main */
 
 #post-main {
-    position: relative;
-    top: 9rem;
-    padding-top: 0;
-    padding-bottom: 8%;
-    margin-bottom: 30px;
+  position: relative;
+  top: 9rem;
+  padding-top: 0;
+  padding-bottom: 8%;
+  margin-bottom: 30px;
 }
 
 /* Post Page Heading */
 
 #post-page-heading {
-    font-size: 15px;
-    font-family: 'Press Start 2P', monospace;
-    color: #ff3399;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    letter-spacing: .25rem;
-    text-transform: uppercase;
-} 
+  font-size: 15px;
+  font-family: "Press Start 2P", monospace;
+  color: #ff3399;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
 
 #post-title-box {
-    position: relative;
-    top: 9.5rem;
-    bottom: 0;
-    background-color: #00ffcc;
-    max-width: 90%;
-    position: relative;
-    left: 5%;
-    right: 5%;
-    text-align: center;
+  position: relative;
+  top: 9.5rem;
+  bottom: 0;
+  background-color: #00ffcc;
+  max-width: 90%;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  text-align: center;
 }
 
 /* Post Page Card */
 
 #post-card-description {
-    text-align: left;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #ff94db;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ff94db;
 }
 
 #post-card-description h3 {
-    font-family: "Press Start 2P", monospace;
-    color: #00ffcc;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 10px;
+  font-family: "Press Start 2P", monospace;
+  color: #00ffcc;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #post-card-description a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #post-card-description h3 {
-    background: none;
+  background: none;
 }
 
 .card-meta-diarypost {
-    font-family: monospace;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: white;
-    letter-spacing: .5rem;
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  letter-spacing: 0.5rem;
 }
 
 .card-meta-diarypost a {
-    text-decoration: none;
-    color: #00ffcc;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #00ffcc;
+  text-transform: uppercase;
 }
 
 .card-meta-diarypost a:hover {
-    color: #ccff00;
+  color: #ccff00;
 }
 
 #post-category-title {
-    margin-top: .30rem;
+  margin-top: 0.3rem;
 }
 
 #post-card-image {
-    opacity: 1;
-    position: relative;
+  opacity: 1;
+  position: relative;
 }
 
 #post-card {
-    margin-top: 25px;
-    padding-top: 0;
-    background: none;
-    box-shadow: none;
-    border-style: none;
+  margin-top: 25px;
+  padding-top: 0;
+  background: none;
+  box-shadow: none;
+  border-style: none;
 }
 
 #post-card-image {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 
 #post-card p {
-    font-family: monospace;
-    color: white;
+  font-family: monospace;
+  color: white;
 }
 
 /* Comments Section */
 
 .comment-form {
-    display: flex;
-    flex-direction: column;
-    display: grid;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  justify-content: center;
 }
 
-.comment-form input, 
+.comment-form input,
 .comment-form textarea {
-    width: 80%;
-    position: relative;
-    left: 6.5%;
-    right: 6.5%;
-    box-shadow: inset 0px 0px 7px pink;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    max-width: 800px;
+  width: 80%;
+  position: relative;
+  left: 6.5%;
+  right: 6.5%;
+  box-shadow: inset 0px 0px 7px pink;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  max-width: 800px;
 }
 
 #comments-section {
-    font-family: "Press Start 2P", monospace;
-    color: #ff3399;
-    position: relative;
-    text-align: center;
-    padding-top: 5px;
-    background-color: white;
-    max-width: 90%;
-    left: 5%;
-    margin-bottom: 5%;
-    font-size: 12px;
+  font-family: "Press Start 2P", monospace;
+  color: #ff3399;
+  position: relative;
+  text-align: center;
+  padding-top: 5px;
+  background-color: white;
+  max-width: 90%;
+  left: 5%;
+  margin-bottom: 5%;
+  font-size: 12px;
 }
 
 #comments-section textarea {
-    height: 160px;
-    padding-top: 10px;
+  height: 160px;
+  padding-top: 10px;
 }
 
 #comments-section h4 {
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #comments-section p {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .form-submit {
-    width: 70%;
+  width: 70%;
 }
 
 .form-submit .submit,
 .wpcf7 wpcf7-submit {
-    background: #00ffcc;
-    cursor: pointer;
-    transition: 0.4s;
-    box-shadow: initial;
-    color: #ff3399;
+  background: #00ffcc;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: initial;
+  color: #ff3399;
 }
 
 .form-submit .submit:hover,
 .wpcf7 .wpcf7:hover {
-    background: #ff3399;
-    color: #00ffcc;
+  background: #ff3399;
+  color: #00ffcc;
 }
 
 .comment-reply-title {
-    text-align: center;
+  text-align: center;
 }
 
 .comment-form-cookies-consent {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Comments List */
 
 .comments {
-    margin-top: 24px;
-    background: rgba(241, 154, 216, 0.411);
+  margin-top: 24px;
+  background: rgba(241, 154, 216, 0.411);
 }
 
 .comments h3 {
-    font-size: 16px;
-    font-family: 'Press Start 2P', monospace;
-    padding-top: 18px;
+  font-size: 16px;
+  font-family: "Press Start 2P", monospace;
+  padding-top: 18px;
 }
 
 .all-comments {
-    font-family: monospace;
-    font-size: 14px;
-    text-align: left;
-    margin-top: 16px;
-    width: 90%;
+  font-family: monospace;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 16px;
+  width: 90%;
 }
 
 .all-comments a {
-    text-decoration: none;
-    color: #52007a;
+  text-decoration: none;
+  color: #52007a;
 }
 
 .all-comments li {
-   margin-left: 10%;
-    margin-bottom: 16px;
+  margin-left: 10%;
+  margin-bottom: 16px;
 }
 
 .all-comments .comment-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #d58bfa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d58bfa;
 }
 
 .all-comments .vcard {
-    display: flex;
-    align-items: center;
-    margin-right: 8px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
 }
 
 .all-comments .photo {
-    border-right: 8px solid transparent;
-    border-bottom: 4px solid transparent;
-    margin-left: 5px;
-    margin-top: 5px;
+  border-right: 8px solid transparent;
+  border-bottom: 4px solid transparent;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .all-comments .says {
-    display: none;
+  display: none;
 }
 
 .all-comments .reply {
-    font-family: "Press Start 2P", monospace;
-    font-size: 8px;
-    margin-left: 10%;
-    padding-bottom: 10px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 8px;
+  margin-left: 10%;
+  padding-bottom: 10px;
 }
 
 .all-comments {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 .all-comments .reply a {
-    text-decoration: none;
-    color: #ff3399;
-    background: #00ffcc;
-    padding-left: 2%;
-    padding-right: 2%;
+  text-decoration: none;
+  color: #ff3399;
+  background: #00ffcc;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .all-comments .children {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 /* Note that Comment User Banners are affected by "footer" attr. */
@@ -1803,90 +1809,89 @@ html, body {
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #post-title-box {
-        margin-top: 1rem;
-    }
-    .comment-form input {
-        width: 40%;
-        padding-top: .25rem;
-        padding-bottom: .25rem;
-    }
+@media only screen and (min-width: 481px) {
+  #post-title-box {
+    margin-top: 1rem;
+  }
+  .comment-form input {
+    width: 40%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #post-title-box {
-        margin-top: 9rem;
-        margin-bottom: 1rem;
-        font-size: 2.5rem;
-        padding-top: 3rem;
-        padding-bottom: 1rem;
-        box-shadow: 0rem 10px #ff3399da;
-        left: 5%;
-        right: 5%;
-    }
-    #post-title-box h1 {
-        font-size: 2.5rem;
-        letter-spacing: 2rem;
-    }
-    #post-card {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        position: relative;
-        margin-top: 70px;
-        padding-bottom: .5rem;
-    }
-    .btn-readmore {
-        font-size: 1.5rem;
-    }
-    .pagination {
-        font-size: 1rem;
-        margin-top: 4rem;
-    }
-    .comments h3 {
+@media only screen and (min-width: 900px) {
+  #post-title-box {
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    left: 5%;
+    right: 5%;
+  }
+  #post-title-box h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+  }
+  #post-card {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    position: relative;
+    margin-top: 70px;
+    padding-bottom: 0.5rem;
+  }
+  .btn-readmore {
+    font-size: 1.5rem;
+  }
+  .pagination {
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
+  .comments h3 {
     font-size: 24px;
-    font-family: 'Press Start 2P', monospace;
+    font-family: "Press Start 2P", monospace;
     padding-top: 10px;
-    }
-    .all-comments {
+  }
+  .all-comments {
     font-family: monospace;
     font-size: 24px;
     text-align: left;
     margin-top: 8px;
     width: 90%;
-    }
-    #comments-section {
-        font-size: 24px;
-    }
-    .all-comments .reply {
-        font-size: 18px;
-    }
-    .all-comments {
-        padding-bottom: 50px;
-    }
+  }
+  #comments-section {
+    font-size: 24px;
+  }
+  .all-comments .reply {
+    font-size: 18px;
+  }
+  .all-comments {
+    padding-bottom: 50px;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #post-card {
-        line-height: 3rem;
-        padding-bottom: 2rem;
-    }
-    #post-card-description p {
-        font-size: 3rem;
-    }
-    #post-card-description h3 {
-        letter-spacing: 1rem;
-        font-size: 3rem;
-        margin-top: 2rem;
-        margin-bottom: 1.5rem;
-    }
-    .card-meta-diarypost {
-        font-size: 2.5rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #post-card {
+    line-height: 3rem;
+    padding-bottom: 2rem;
+  }
+  #post-card-description p {
+    font-size: 3rem;
+  }
+  #post-card-description h3 {
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-meta-diarypost {
+    font-size: 2.5rem;
+  }
 }
 
 /******* This is the Work Page CSS ************/
@@ -1894,450 +1899,465 @@ html, body {
 /* Work Page Main */
 
 #work-main {
-    position: relative;
-    top: 11.5rem;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  position: relative;
+  top: 11.5rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /* Work Page Heading */
 
 #work-page-heading {
-    text-align: center;
-    line-height: 1rem;
-    font-size: 12px;
-    letter-spacing: 0.5rem;
-    padding: .5rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 12px;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem;
 }
 
 #work-title-box {
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399;
-    position: relative;
-    width: 90%;
-    left: 5%;
-    top: 10rem;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399;
+  position: relative;
+  width: 90%;
+  left: 5%;
+  top: 10rem;
 }
 
 /* Work Page Section Divisions */
 
 .section-div {
-    width: 90%;
-    height: 20rem;
-    margin-bottom: 1rem;
-    position: relative;
-    left: 5%;
-    right: 5%;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+  width: 90%;
+  height: 20rem;
+  margin-bottom: 1rem;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Work Page Link Styles*/
 
 .section-div:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 #work-main a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Work Page Web Developer Button */
 
 #work-coding {
-    margin-bottom: 15;
-    width: 100%;
+  margin-bottom: 15;
+  width: 100%;
 }
 #work-web-dev .caption-div {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
 }
 
 /* Work Page Storyteller Button */
 
 #work-storyteller .caption-div {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
 }
 
 #work-sailor-saturn {
-    margin-bottom: 15;
-    width: 100%;
+  margin-bottom: 15;
+  width: 100%;
 }
 
 /* Work Page Fashion Button */
 
 #work-sailor-makeup {
-    margin-bottom: 15;
-    width: 100%;
+  margin-bottom: 15;
+  width: 100%;
 }
 
 #work-fashion {
-    margin-bottom: -2rem;
+  margin-bottom: -2rem;
 }
 
 #work-fashion .caption-div {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
 }
 
 /* Work Page Captions */
 
 .caption-div {
-    position: relative;
-    top: 1.5rem;
-    text-align: center;
+  position: relative;
+  top: 1.5rem;
+  text-align: center;
 }
 .caption-div h3 {
-    font-family: "Press Start 2P", monospace;
-    font-size: 12px;
-    color: #f8007c;
+  font-family: "Press Start 2P", monospace;
+  font-size: 12px;
+  color: #f8007c;
 }
 
 /* Work Page Media Queries */
 
-@media only screen and (min-width:350px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 3rem;
-    }
+@media only screen and (min-width: 350px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
 }
 
-@media only screen and (min-width:380px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 4rem;
-    }
-    #work-main {
-        position: relative;
-        top: 13rem;
-    }
+@media only screen and (min-width: 380px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 4rem;
+  }
+  #work-main {
+    position: relative;
+    top: 13rem;
+  }
 }
 
-@media only screen and (min-width:407px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 5rem;
-    }
+@media only screen and (min-width: 407px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 5rem;
+  }
 }
 
-@media only screen and (min-width:437px) {
-    #work-title-box {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-    }
-    .section-div {
-        width: 90%;
-        margin-bottom: 6rem;
-    }
+@media only screen and (min-width: 437px) {
+  #work-title-box {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .section-div {
+    width: 90%;
+    margin-bottom: 6rem;
+  }
 }
 
-@media only screen and (min-width:461px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 7rem;
-    }
-    #work-main {
-        position: relative;
-        top: 14rem;
-    }
+@media only screen and (min-width: 461px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 7rem;
+  }
+  #work-main {
+    position: relative;
+    top: 14rem;
+  }
 }
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #title-box {
-        margin-top: 1rem;
-    }
-    .section-div {
-        margin-bottom: 8.5rem;
-    }
-    #work-main {
-        position: relative;
-        top: 15rem;
-    }
+@media only screen and (min-width: 481px) {
+  #title-box {
+    margin-top: 1rem;
+  }
+  .section-div {
+    margin-bottom: 8.5rem;
+  }
+  #work-main {
+    position: relative;
+    top: 15rem;
+  }
 }
 
-@media only screen and (min-width:521px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 10rem;
-    }
-    #work-main {
-        position: relative;
-        top: 17rem;
-    }
+@media only screen and (min-width: 521px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 10rem;
+  }
+  #work-main {
+    position: relative;
+    top: 17rem;
+  }
 }
 
-@media only screen and (min-width:561px) {
-    .section-div {
-        width: 90%;
-        margin-bottom: 11.5rem;
-    }
-    #title-box h1 {
-        font-size: 1.5rem;
-    }
+@media only screen and (min-width: 561px) {
+  .section-div {
+    width: 90%;
+    margin-bottom: 11.5rem;
+  }
+  #title-box h1 {
+    font-size: 1.5rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #work-page-heading {
-        line-height: 3rem;
-        font-size: 2rem;
-    }
-    #work-title-box {
-        position: relative;
-        top: 17rem;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        box-shadow: 0px 15px #ff3399;
-    }
-    #work-main {
-        position: relative;
-        top: 32.5rem;
-        margin-bottom: 28rem;
-    }
-    .section-div {
-        position: relative;
-        margin-bottom: 28rem;
-    }
-    .caption-div h3 {
-        font-size: 1.5rem;
-    }
-    .img-div {
-        width: 800px;
-        margin-bottom: 1rem;
-    }
+@media only screen and (min-width: 900px) {
+  #work-page-heading {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  #work-title-box {
+    position: relative;
+    top: 17rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0px 15px #ff3399;
+  }
+  #work-main {
+    position: relative;
+    top: 32.5rem;
+    margin-bottom: 28rem;
+  }
+  .section-div {
+    position: relative;
+    margin-bottom: 28rem;
+  }
+  .caption-div h3 {
+    font-size: 1.5rem;
+  }
+  .img-div {
+    width: 800px;
+    margin-bottom: 1rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #work-title-box {
-        width: 90%;
-        top: 18rem;
-    }
-    #work-title-box h1 {
-        font-size: 2.5rem;
-    }
-    #work-main {
-        position: relative;
-        top: 22rem;
-        width: 90%;
-        left: 5%;
-        margin-bottom: 5rem;
-    }
-    .section-div {
-        position: relative;
-        margin-bottom: 4rem;
-        height: auto;
-    }
-    .caption-div h3 {
-        font-size: 2rem;
-    }
-    .img-div {
-        width: 900px;
-    }
-
+@media only screen and (min-width: 1024px) {
+  #work-title-box {
+    width: 90%;
+    top: 18rem;
+  }
+  #work-title-box h1 {
+    font-size: 2.5rem;
+  }
+  #work-main {
+    position: relative;
+    top: 22rem;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 5rem;
+  }
+  .section-div {
+    position: relative;
+    margin-bottom: 4rem;
+    height: auto;
+  }
+  .caption-div h3 {
+    font-size: 2rem;
+  }
+  .img-div {
+    width: 900px;
+  }
 }
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #work-title-box {
-        position: relative;
-        top: 8rem;
-        height: 1rem;
-        display: grid;
-        align-content: center;
-        background: none;
-        border-style: none;
-        box-shadow: none;
-        position: relative;
-        width: 90%;
-        left: 5%;
-    }
-    #work-title-box h1 {
-        font-size: 30px;
-        color: #f8007c;
-    }
-    #work-main {
-        position: relative;
-        top: 25rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: 10px;
-        position: relative;
-        left: 5%;
-    }
-    #work-sailor-saturn {
-        position: relative;
-        margin-bottom: 0;
-    }
-    #work-buttons-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
-        position: relative;
-        top: -15rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-    .section-div {
-        position: relative;
-        height: auto;
-        margin-bottom: 0;
-    }
-    .caption-div h3 {
-        font-size: 1rem;
-    }
-    .img-div {
-        width: 350px;
-    }
+@media only screen and (min-width: 1281px) {
+  #work-title-box {
+    position: relative;
+    top: 8rem;
+    height: 1rem;
+    display: grid;
+    align-content: center;
+    background: none;
+    border-style: none;
+    box-shadow: none;
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+  #work-title-box h1 {
+    font-size: 30px;
+    color: #f8007c;
+  }
+  #work-main {
+    position: relative;
+    top: 25rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 10px;
+    position: relative;
+    left: 5%;
+  }
+  #work-sailor-saturn {
+    position: relative;
+    margin-bottom: 0;
+  }
+  #work-buttons-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    position: relative;
+    top: -15rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .section-div {
+    position: relative;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .caption-div h3 {
+    font-size: 1rem;
+  }
+  .img-div {
+    width: 350px;
+  }
 }
 
 /*********** These Are The Work Page Children CSS (Web Developer, Storyteller, Fashion) *****/
 
+/* Back To Work Page Button */
+
+.back-to-work {
+  font-family: "Press Start 2P", monospace;
+  font-size: 12px;
+  margin-top: -6rem;
+}
+
+.back-to-work a {
+  text-decoration: none;
+}
+
+.back-to-work a:hover {
+  color: #00ffcc;
+}
+
 /* Web Developer Main */
 
 #web-dev-main {
-    position: relative;
-    top: 11rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  position: relative;
+  top: 11rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Web Developer Page Heading */
 
 .child-page-heading {
-    font-size: 12px;
-    font-family: 'Press Start 2P', monospace;
-    color: #ff3399;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Press Start 2P", monospace;
+  color: #ff3399;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
 }
 
 #web-dev-title-box {
-    position: relative;
-    top: 2rem;
-    bottom: 0;
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 6px #ff3399d3;
-    width: 90%;
-    position: relative;
-    left: 4%;
+  position: relative;
+  top: 2rem;
+  bottom: 0;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 6px #ff3399d3;
+  width: 90%;
+  position: relative;
+  left: 4%;
 }
 
 /* Web Developer Header Image */
 
 .header-img-content {
-    width: 70%;
-    justify-self: center;
+  width: 70%;
+  justify-self: center;
 }
 
 .header-img {
-    width: 90%;
-    position: relative;
-    left: 5%;
-    top: 1rem;
-    display: grid;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 1rem;
+  display: grid;
 }
 
 /* Child Buttons */
 
 .button {
-    background: rgba(255, 255, 255, 0.815);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 90%;
-    margin-bottom: 20px;
-    position: relative;
-    left: 3.5%;
-    top: -7rem;
-    box-shadow: inset 5px 5px 5px rgb(226, 173, 182);
+  background: rgba(255, 255, 255, 0.815);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 90%;
+  margin-bottom: 20px;
+  position: relative;
+  left: 3.5%;
+  top: -7rem;
+  box-shadow: inset 5px 5px 5px rgb(226, 173, 182);
 }
 
 .button h3 {
-    font-family: 'Press Start 2P', monospace;
-    font-size: 16px;
-    text-align: center;
-    color: #ff3399;
+  font-family: "Press Start 2P", monospace;
+  font-size: 16px;
+  text-align: center;
+  color: #ff3399;
 }
 
 .buttons-section a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .buttons-section a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button:hover {
-    transform: scale(1.1);
-    margin-right: 2%;
-    margin-left: 1.15%;
+  transform: scale(1.1);
+  margin-right: 2%;
+  margin-left: 1.15%;
 }
 
 .button h3:hover {
-    color: #00ffcc;
+  color: #00ffcc;
 }
 
 /* Web Developer Media Queries */
 
-@media only screen and (min-width:900px) {
-    #web-dev-title-box {
-        text-align: center;
-        position: relative;
-        margin-bottom: 50px;
-        font-size: 2.5rem;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        box-shadow: 0px 15px #ff3399;
-    }
-    #web-dev-title-box h1 {
-        font-size: 2rem;
-    }
-    #web-dev-header-img {
-        position: relative;
-        top: 2rem;
-    }
-    #web-dev-main {
-        position: relative;
-        top: 8rem;
-    }
-    #web-dev-main .button {
-        margin-bottom: 2.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
+@media only screen and (min-width: 900px) {
+  #web-dev-title-box {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0px 15px #ff3399;
+  }
+  #web-dev-title-box h1 {
+    font-size: 2rem;
+  }
+  #web-dev-header-img {
+    position: relative;
+    top: 2rem;
+  }
+  #web-dev-main {
+    position: relative;
+    top: 8rem;
+  }
+  #web-dev-main .button {
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
-@media only screen and (min-width:1281px) {
-    #web-dev-title-box {
-        top: 3rem;
-    }
-    #web-dev-main {
-        top: 10rem;
-    }
-    .header-img-content {
-        width: 25%;
-    }
-    #web-dev-title-box {
+@media only screen and (min-width: 1281px) {
+  #web-dev-title-box {
+    top: 3rem;
+  }
+  #web-dev-main {
+    top: 10rem;
+  }
+  .header-img-content {
+    width: 25%;
+  }
+  #web-dev-title-box {
     max-width: 60%;
     margin-left: 15%;
-    }
+  }
 }
 
 /* Storyteller Page CSS */
@@ -2345,114 +2365,114 @@ html, body {
 /* Storyteller Main */
 
 #storyteller-main {
-    position: relative;
-    top: 11rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  position: relative;
+  top: 11rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Storyteller Page Heading */
 
 #storyteller-title-box {
-    position: relative;
-    top: 2rem;
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399;
-    width: 90%;
-    position: relative;
-    left: 5%;
+  position: relative;
+  top: 2rem;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399;
+  width: 90%;
+  position: relative;
+  left: 5%;
 }
 
 #storyteller-page-heading {
-    letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 
 /* Storyteller Page Media Queries */
 
-@media only screen and (min-width:350px) {
-    #storyteller-title-box {
-        position: relative;
-        top: 2rem;
-    }
+@media only screen and (min-width: 350px) {
+  #storyteller-title-box {
+    position: relative;
+    top: 2rem;
   }
-  
-  /* small tablets */
-  
-  @media only screen and (min-width:481px) {
-      .storyteller-button {
-          padding-top: 20px;
-          padding-bottom: 20px;
-      }
+}
+
+/* small tablets */
+
+@media only screen and (min-width: 481px) {
+  .storyteller-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  
-  /* regular tablets */
-  
-  @media only screen and (min-width:900px) {
-    /* Commented out to avoid overriding other pages; check again later:   
+}
+
+/* regular tablets */
+
+@media only screen and (min-width: 900px) {
+  /* Commented out to avoid overriding other pages; check again later:   
     
     body {
           overflow-y: scroll;
       } 
       
       */
-      #storyteller-title-box {
-          left: 4%;
-          right: 5%;
-      }
-      #storyteller-title-box h1 {
-          font-size: 2.5rem;
-      }
-      #storyteller-main {
-          position: relative;
-          top: 11rem;
-      }
-      #storyteller-main .button {
-        margin-bottom: 2.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
+  #storyteller-title-box {
+    left: 4%;
+    right: 5%;
   }
-  
-  /* big tablets, laptops, desktops */
-  
-  @media only screen and (min-width:1024px) {
-      #storyteller-title-box {
-          width: 90%;
-      }
-      #storyteller-title-box h1 {
-          font-size: 2.5rem;
-      }
+  #storyteller-title-box h1 {
+    font-size: 2.5rem;
   }
-  
-  /* hi-res laptops and desktops */
-  
-  @media only screen and (min-width:1281px) {
-      #storyteller-title-box {
-          padding-top: .5rem;
-          padding-bottom: .5rem;
-          position: relative;
-          display: grid;
-          align-content: center;
-          position: relative;
-          max-width: 60%;
-          margin-left: 15%;
-      }
-      .storyteller-button {
-          padding-top: 35px;
-          padding-bottom: 35px;
-          margin-bottom: 4%;
-      }
-      .storyteller-button h3 {
-          font-size: 1.5rem;
-      }
-      .buttons-section {
-        max-width: 60%;
-        margin-left: 20%;
-    }
+  #storyteller-main {
+    position: relative;
+    top: 11rem;
   }
-  
+  #storyteller-main .button {
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* big tablets, laptops, desktops */
+
+@media only screen and (min-width: 1024px) {
+  #storyteller-title-box {
+    width: 90%;
+  }
+  #storyteller-title-box h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* hi-res laptops and desktops */
+
+@media only screen and (min-width: 1281px) {
+  #storyteller-title-box {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    display: grid;
+    align-content: center;
+    position: relative;
+    max-width: 60%;
+    margin-left: 15%;
+  }
+  .storyteller-button {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 4%;
+  }
+  .storyteller-button h3 {
+    font-size: 1.5rem;
+  }
+  .buttons-section {
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
+
 /********* This is the Fashion Page CSS ***********/
 
 /* Fashion Body Reset */
@@ -2470,127 +2490,127 @@ html, body {
 /* Fashion Main */
 
 #fashion-main {
-    position: relative;
-    top: 11rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  position: relative;
+  top: 11rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Fashion Page Heading */
 
 #fashion-page-heading {
-    font-size: 12px;
-    text-align: center;
-    line-height: 1rem;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1rem;
 }
 
 #fashion-title-box {
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399;
-    width: 90%;
-    position: relative;
-    top: 2rem;
-    left: 4%;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399;
+  width: 90%;
+  position: relative;
+  top: 2rem;
+  left: 4%;
 }
 
 /* Fashion Page Buttons */
 
 .fashion-button {
-    top: -7.5rem;
+  top: -7.5rem;
 }
 #fashion-main a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Fashion Page Media Queries */
 
-@media only screen and (min-width:350px) {
-    #fashion-title-box {
-        position: relative;
-        top: 2rem;
-    }
+@media only screen and (min-width: 350px) {
+  #fashion-title-box {
+    position: relative;
+    top: 2rem;
+  }
 }
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    .fashion-button {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+@media only screen and (min-width: 481px) {
+  .fashion-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-   /* Commented out to avoid overriding other pages 
+@media only screen and (min-width: 900px) {
+  /* Commented out to avoid overriding other pages 
     
    body {
         overflow-y: scroll;
     }
 
     */
-    #fashion-title-box {
-        position: relative;
-        margin-bottom: 50px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        box-shadow: 0px 15px #ff3399;
-    }
-    #fashion-title-box h1 {
-        font-size: 1.5rem;
-        letter-spacing: .5rem;
-    }
-    #fashion-main {
-        position: relative;
-        top: 9rem;
-    }
-    #fashion-main .button {
-        margin-bottom: 2.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
+  #fashion-title-box {
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 15px #ff3399;
+  }
+  #fashion-title-box h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+  #fashion-main {
+    position: relative;
+    top: 9rem;
+  }
+  #fashion-main .button {
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #fashion-title-box {
-        width: 90%;
-    }
-    #fashion-title-box h1 {
-        font-size: 2rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #fashion-title-box {
+    width: 90%;
+  }
+  #fashion-title-box h1 {
+    font-size: 2rem;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #fashion-title-box {
-        position: relative;
-        height: 1rem;
-        display: grid;
-        align-content: center;
-        position: relative;
-        width: 90%;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    .fashion-button {
-        padding-top: 35px;
-        padding-bottom: 35px;
-        margin-bottom: 4%;
-    }
-    .fashion-button h3 {
-        font-size: 1.5rem;
-    }
-  
-    #fashion-title-box {
-        max-width: 60%;
-        margin-left: 15%;
-    }
+@media only screen and (min-width: 1281px) {
+  #fashion-title-box {
+    position: relative;
+    height: 1rem;
+    display: grid;
+    align-content: center;
+    position: relative;
+    width: 90%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .fashion-button {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 4%;
+  }
+  .fashion-button h3 {
+    font-size: 1.5rem;
+  }
+
+  #fashion-title-box {
+    max-width: 60%;
+    margin-left: 15%;
+  }
 }
 
 /***********This is the Contact Page CSS ************/
@@ -2598,243 +2618,243 @@ html, body {
 /* Contact Page Heading */
 
 #contact-title-box {
-    background-color: #00ffcc;
-    border-style: solid;
-    border-color: #ff3399;
-    box-shadow: 0px 10px #ff3399;
-    width: 90%;
-    position: relative;
-    top: 10rem;
-    left: 4%;
+  background-color: #00ffcc;
+  border-style: solid;
+  border-color: #ff3399;
+  box-shadow: 0px 10px #ff3399;
+  width: 90%;
+  position: relative;
+  top: 10rem;
+  left: 4%;
 }
 
 #contact-page-heading {
-    letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 
 /* Contact Page Container */
 
 #contact-main {
-    text-align: left;
+  text-align: left;
 }
 
 .contact-container {
-    background-color: rgba(253, 243, 250);
-    width: 90%;
-    position: relative;
-    left: 5%;
-    top: 1.25rem;
-    padding-bottom: 50px;
+  background-color: rgba(253, 243, 250);
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: 1.25rem;
+  padding-bottom: 50px;
 }
 
 /* Contact Description */
 
 .description-container {
-    width: 90%;
-    position: relative;
-    left: 5%;
+  width: 90%;
+  position: relative;
+  left: 5%;
 }
 
 .description-container p {
-    font-family: monospace;
-    color: #c653ff;
+  font-family: monospace;
+  color: #c653ff;
 }
 
 .description-container ul li {
-    margin-left: 15%;
-    font-family: monospace;
-    color: #c653ff;
-    margin-top: 7px;
-    margin-bottom: 7px;
+  margin-left: 15%;
+  font-family: monospace;
+  color: #c653ff;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 #email-address {
-    width: 250px;
-    margin-bottom: 0px;
+  width: 250px;
+  margin-bottom: 0px;
 }
 
 /* Contact Form */
 
 .wpcf7 input,
 .wpcf7 textarea {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0;
-    padding: 0 16px;
-    height: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0 16px;
+  height: 30px;
 }
 
 .wpcf7 textarea {
-    height: 100px;
-    margin-bottom: 10px;
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 .wpcf7 .wpcf7-submit:hover {
-    cursor: pointer;
-    background-color: #ff3399d2;
-    color: #00ffcc;
-    font-weight: bold;
-} 
+  cursor: pointer;
+  background-color: #ff3399d2;
+  color: #00ffcc;
+  font-weight: bold;
+}
 
 .contact-form-container input {
-    width: 90%;
-    position: relative;
-    margin-bottom: 17px;
-    margin-top: 5px;
+  width: 90%;
+  position: relative;
+  margin-bottom: 17px;
+  margin-top: 5px;
 }
 
 label {
-    font-family: monospace;
-    color: #c653ff;
+  font-family: monospace;
+  color: #c653ff;
 }
 
 .contact-form-container {
-    padding: 10%;
-    padding-top: 15px;
+  padding: 10%;
+  padding-top: 15px;
 }
 
 /* Header Image */
 
 .envelope-container {
-    width: 80%;
-    position: relative;
-    left: 10%;
-    display: grid;
-    justify-content: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  display: grid;
+  justify-content: center;
 }
 
 #envelope-img {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 15px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 /* Contact Page Media Queries */
 
-@media only screen and (min-width:400px) {
-    #email-address {
-        position: relative;
-        top: 9px;
-    }
-    #name-container input {
-        position: relative;
-        left: 7%;
-    }
-    
-    #email-container input {
-        position: relative;
-        left: 5%;
-    }
-    
-    #message-container input {
-        position: relative;
-        left: 1%;
-    }
+@media only screen and (min-width: 400px) {
+  #email-address {
+    position: relative;
+    top: 9px;
+  }
+  #name-container input {
+    position: relative;
+    left: 7%;
+  }
+
+  #email-container input {
+    position: relative;
+    left: 5%;
+  }
+
+  #message-container input {
+    position: relative;
+    left: 1%;
+  }
 }
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #contact-title-box {
-        position: relative;
-        top: 9rem;
-    }
-    .contact-container {
-        position: relative;
-        top: 2rem;
-        margin-bottom: 50px;
-    }
-    #email-address {
-        position: relative;
-        top: 9px;
-    }
-    #name-container input {
-        position: relative;
-        left: 7%;
-    }
-    
-    #email-container input {
-        position: relative;
-        left: 5%;
-    }
-    
-    #message-container input {
-        position: relative;
-        left: 1%;
-        width: 275px;
-    }
+@media only screen and (min-width: 481px) {
+  #contact-title-box {
+    position: relative;
+    top: 9rem;
+  }
+  .contact-container {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 50px;
+  }
+  #email-address {
+    position: relative;
+    top: 9px;
+  }
+  #name-container input {
+    position: relative;
+    left: 7%;
+  }
+
+  #email-container input {
+    position: relative;
+    left: 5%;
+  }
+
+  #message-container input {
+    position: relative;
+    left: 1%;
+    width: 275px;
+  }
 }
 
-@media only screen and (min-width:600px) {
-    #name-container input {
-        position: relative;
-        left: 6%;
-    }
-    
-    #email-container input {
-        position: relative;
-        left: 4%;
-    }
-    
-    #message-container input {
-        position: relative;
-        left: 1%;
-    }
+@media only screen and (min-width: 600px) {
+  #name-container input {
+    position: relative;
+    left: 6%;
+  }
+
+  #email-container input {
+    position: relative;
+    left: 4%;
+  }
+
+  #message-container input {
+    position: relative;
+    left: 1%;
+  }
 }
 
-@media only screen and (min-width:700px) {
-    #name-container input {
-        position: relative;
-        left: 5%;
-    }
-    
-    #email-container input {
-        position: relative;
-        left: 3.5%;
-    }
-    .contact-container p {
-        font-size: 1.5rem;
-    }
-    .contact-container ul li {
-        font-size: 1.5rem;
-    }
-    .contact-container label {
-        font-size: 1.5rem;
-    }
+@media only screen and (min-width: 700px) {
+  #name-container input {
+    position: relative;
+    left: 5%;
+  }
+
+  #email-container input {
+    position: relative;
+    left: 3.5%;
+  }
+  .contact-container p {
+    font-size: 1.5rem;
+  }
+  .contact-container ul li {
+    font-size: 1.5rem;
+  }
+  .contact-container label {
+    font-size: 1.5rem;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #contact-title-box {
-        position: relative;
-        top: 9rem;
-        box-shadow: 0px 15px #ff3399;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        max-width: 80%;
-        margin-left: 6%;
-    }
-   #contact-main {
-       position: relative;
-       top: 10rem;
-       margin-bottom: 50px;
-       max-width: 80%;
-       margin-left: 10%;
-   }
-    .contact-container p {
-        font-size: 2rem;
-    }
-    .contact-container ul li {
-        font-size: 2rem;
-    }
-    .contact-container label {
-        font-size: 1.5rem;
-    }
-    #email-address {
-        width: 400px;
-        margin-bottom: 0px;
-    }
+@media only screen and (min-width: 900px) {
+  #contact-title-box {
+    position: relative;
+    top: 9rem;
+    box-shadow: 0px 15px #ff3399;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    max-width: 80%;
+    margin-left: 6%;
+  }
+  #contact-main {
+    position: relative;
+    top: 10rem;
+    margin-bottom: 50px;
+    max-width: 80%;
+    margin-left: 10%;
+  }
+  .contact-container p {
+    font-size: 2rem;
+  }
+  .contact-container ul li {
+    font-size: 2rem;
+  }
+  .contact-container label {
+    font-size: 1.5rem;
+  }
+  #email-address {
+    width: 400px;
+    margin-bottom: 0px;
+  }
 }
 
 /**********This is the Coming Soon CSS ****************/
@@ -2858,40 +2878,39 @@ label {
 /* Coming Soon Page Heading */
 
 #coming-soon-page-heading {
-    font-size: 12px;
-    padding-bottom: 20px;
+  font-size: 12px;
+  padding-bottom: 20px;
 }
 
 #coming-soon-title-box {
-    position: relative;
-    top: 8rem;
-    left: 4%;
+  position: relative;
+  top: 8rem;
+  left: 4%;
 }
 
 /* Coming Soon Main */
 
 #coming-soon-main {
-    position: relative;
-    top: 9rem;
-    padding-top: 0px;
-    padding-bottom: 8%;
-    margin-bottom: 30px;
-    text-align: center;
+  position: relative;
+  top: 9rem;
+  padding-top: 0px;
+  padding-bottom: 8%;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Coming Soon Page Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #coming-soon-title-box {
-        position: relative;
-
-    }
-    #coming-soon-title-box h1 {
-        font-size: 1.5rem;
-    }
-    /* #alien-monster {
+@media only screen and (min-width: 481px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
+  #coming-soon-title-box h1 {
+    font-size: 1.5rem;
+  }
+  /* #alien-monster {
         position: absolute;
     }
     #alien-header-img {
@@ -2905,90 +2924,89 @@ label {
     } */
 }
 
-@media only screen and (min-width:620px) {
-    #coming-soon-title-box {
-        position: relative;
-    }
+@media only screen and (min-width: 620px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
 }
 
-@media only screen and (min-width:820px) {
-    #coming-soon-title-box {
-        position: relative;
-    }
+@media only screen and (min-width: 820px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #coming-soon-title-box {
-        position: relative;
-        margin-bottom: 50;
-        font-size: 2.5rem;
-        padding-top: 3rem;
-        padding-bottom: 1rem;
-        left: 5%;
-        right: 5%;
-    }
-    #coming-soon-title-box h1 {
-        font-size: 2.5rem;
-    }
-    /* #alien-header-img {
+@media only screen and (min-width: 900px) {
+  #coming-soon-title-box {
+    position: relative;
+    margin-bottom: 50;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    left: 5%;
+    right: 5%;
+  }
+  #coming-soon-title-box h1 {
+    font-size: 2.5rem;
+  }
+  /* #alien-header-img {
         position: relative;
 
     } */
 }
 
-@media only screen and (min-width:970px) {
-    #coming-soon-title-box {
-        position: relative;
-
-    }
-    /* #alien-monster {
+@media only screen and (min-width: 970px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
+  /* #alien-monster {
         position: relative;
     } */
 }
 /* big tablets, laptops, desktops */
 
-@media only screen and (min-width:1024px) {
-    #coming-soon-title-box {
-        width: 90%;
-    }
-    #coming-soon-title-box h1 {
-        font-size: 2.5rem;
-    }
+@media only screen and (min-width: 1024px) {
+  #coming-soon-title-box {
+    width: 90%;
+  }
+  #coming-soon-title-box h1 {
+    font-size: 2.5rem;
+  }
 }
 
-@media only screen and (min-width:1079px) {
-    #coming-soon-title-box {
-        position: relative;
-    }
+@media only screen and (min-width: 1079px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
 }
 
-@media only screen and (min-width:1173px) {
-    #coming-soon-title-box {
-        position: relative;
-    }
+@media only screen and (min-width: 1173px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
 }
 
-@media only screen and (min-width:1270px) {
-    #coming-soon-title-box {
-        position: relative;
-    }
+@media only screen and (min-width: 1270px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #coming-soon-title-box {
-        position: relative;
-        height: 1rem;
-        display: grid;
-        align-content: center;
-        position: relative;
-        width: 90%;
-        left: 5%;
-    }
-    /* #alien-header-img {
+@media only screen and (min-width: 1281px) {
+  #coming-soon-title-box {
+    position: relative;
+    height: 1rem;
+    display: grid;
+    align-content: center;
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+  /* #alien-header-img {
         position: relative;
         top: -7rem;
     }
@@ -2998,12 +3016,11 @@ label {
     } */
 }
 
-@media only screen and (min-width:1400px) {
-    #coming-soon-title-box {
-        position: relative;
-       
-    }
-    /* #alien-header-img {
+@media only screen and (min-width: 1400px) {
+  #coming-soon-title-box {
+    position: relative;
+  }
+  /* #alien-header-img {
         position: relative;
         top: -12rem;
     }
@@ -3018,427 +3035,427 @@ label {
 /* No Results Page Heading */
 
 #no-results-title-box {
-    position: relative;
-    top: 9rem;
-    width: 90%;
-    text-align: center;
-    left: 5%;
+  position: relative;
+  top: 9rem;
+  width: 90%;
+  text-align: center;
+  left: 5%;
 }
 
 #no-results-title-box h1 {
-    background-color: #ff94db; 
-    border-style: none;
+  background-color: #ff94db;
+  border-style: none;
 }
 
 #no-results-page-heading {
-    color:#712f92; 
-    font-size:15px; 
-    text-transform:none; letter-spacing:0rem; 
-    line-height:1.5rem;
+  color: #712f92;
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: 0rem;
+  line-height: 1.5rem;
 }
 
 /* No Results Page */
 
 #no-results-main {
-    text-align: center;
-    width: 90%;
+  text-align: center;
+  width: 90%;
 }
 
 .no-results {
-    text-align: center;
-    margin-top: 2.5rem;
-    background-color: #ff94db;
+  text-align: center;
+  margin-top: 2.5rem;
+  background-color: #ff94db;
 }
 
 .no-results ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .no-results h2 {
-    color: #ff3399;
-    background: #00ffcc;
-    font-family: 'Press Start 2P', monospace;
-    width: 90%;
-    position: relative;
-    top: -2rem;
-    left: 10%;
-    right: 5%;
-    font-size: 12px;
-    line-height: 1.25rem;
+  color: #ff3399;
+  background: #00ffcc;
+  font-family: "Press Start 2P", monospace;
+  width: 90%;
+  position: relative;
+  top: -2rem;
+  left: 10%;
+  right: 5%;
+  font-size: 12px;
+  line-height: 1.25rem;
 }
 
 .no-results h3 {
-    font-family: "Press Start 2P", monospace;
-    font-size: 12px;
-    color: #712f92;
-    line-height: 20px;
-    width: 90%;
-    position: relative;
-    left: 10%;
+  font-family: "Press Start 2P", monospace;
+  font-size: 12px;
+  color: #712f92;
+  line-height: 20px;
+  width: 90%;
+  position: relative;
+  left: 10%;
 }
 
 .dont-worry {
-    position: relative;
-    top: -1rem;
+  position: relative;
+  top: -1rem;
 }
 
 .check-links {
-    position: relative;
-    top: -1rem;
+  position: relative;
+  top: -1rem;
 }
 
 #no-results-subscribe {
-    position: relative;
-    top: -3rem;
-    left: 10%;
+  position: relative;
+  top: -3rem;
+  left: 10%;
 }
 
-
 .no-results li {
-    font-family: "Press Start 2P", monospace;
-    font-size: 10px;
-    line-height: 1.5rem;
+  font-family: "Press Start 2P", monospace;
+  font-size: 10px;
+  line-height: 1.5rem;
 }
 
 .no-results a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .no-results a:hover {
-    cursor: pointer;
-    color: #00ffcc;
+  cursor: pointer;
+  color: #00ffcc;
 }
 
 .check-links {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* Media Queries for No Results Page */
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    .no-results {
-        position: relative;
-        top: -5rem;
-    }
-    .no-results h2 {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-    }
-   .dont-worry h3 {
-       font-size: 1.25rem;
-       line-height: 2rem;
-   }
-   .check-links li {
-       font-size: 1rem;
-       line-height: 2rem;
-       position: relative;
-       left: 5%;
-   }
-   #no-results-subscribe {
-       position: relative;
-       top: -10rem;
-   }
+@media only screen and (min-width: 900px) {
+  .no-results {
+    position: relative;
+    top: -5rem;
+  }
+  .no-results h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .dont-worry h3 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+  .check-links li {
+    font-size: 1rem;
+    line-height: 2rem;
+    position: relative;
+    left: 5%;
+  }
+  #no-results-subscribe {
+    position: relative;
+    top: -10rem;
+  }
 }
 
-@media only screen and (min-width:1281px) {
-    #no-results-subscribe input {
-        height: 0rem;
-        font-size: 18px;
-    }
-    #no-results-subscribe form {
-        padding-bottom: 0px;
-    }
-    #no-results-subscribe p {
-        font-size: 12px;
-    }
-    #no-results-subscribe h3 {
-        font-size: 22px;
-    }
-    #no-results-subscribe {
-        height: 22rem;
-    }
+@media only screen and (min-width: 1281px) {
+  #no-results-subscribe input {
+    height: 0rem;
+    font-size: 18px;
+  }
+  #no-results-subscribe form {
+    padding-bottom: 0px;
+  }
+  #no-results-subscribe p {
+    font-size: 12px;
+  }
+  #no-results-subscribe h3 {
+    font-size: 22px;
+  }
+  #no-results-subscribe {
+    height: 22rem;
+  }
 }
 
 /******* This is the Error 404 Page CSS *******/
 
 .container-404 {
-    text-align: center;
-    margin-top: 5.5rem;
-    width: 90%;
-    position: relative;
-    left: 5%;
+  text-align: center;
+  margin-top: 5.5rem;
+  width: 90%;
+  position: relative;
+  left: 5%;
 }
 
 .container-404 h3 {
-    font-family: monospace;
-    color: #712f92;
-    margin-top: 10px;
-    font-size: 16px;
-    margin-bottom: 12px;
+  font-family: monospace;
+  color: #712f92;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 
 .container-404 a {
-    font-family: "Press Start 2P", monospace;
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 1.25rem;
+  font-family: "Press Start 2P", monospace;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.25rem;
 }
 
 .container-404 a:hover {
-    color: #00ffcc;
+  color: #00ffcc;
 }
 
 .container-404 li {
-    list-style: none;
+  list-style: none;
 }
 
 #not-found-alien {
-    width: 150px;
+  width: 150px;
 }
 
 #not-found-heading {
-    font-size: 16px;
-    letter-spacing: 0rem;
-    line-height: 1.5rem;
+  font-size: 16px;
+  letter-spacing: 0rem;
+  line-height: 1.5rem;
 }
 
 /* Error 404 Page Media Queries */
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    .container-404 h3 {
-        margin-top: 25px;
-        font-size: 32px;
-        margin-bottom: 16px;
-    }
-    .container-404 a {
-        font-family: "Press Start 2P", monospace;
-        text-decoration: none;
-        font-size: 24px;
-        line-height: 2.5rem;
-    }
-    #not-found-alien {
-        width: 300px;
-    }
-    #not-found-heading {
-        font-size: 32px;
-        letter-spacing: 0rem;
-        line-height: 2.5rem;
-    }
+@media only screen and (min-width: 900px) {
+  .container-404 h3 {
+    margin-top: 25px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .container-404 a {
+    font-family: "Press Start 2P", monospace;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 2.5rem;
+  }
+  #not-found-alien {
+    width: 300px;
+  }
+  #not-found-heading {
+    font-size: 32px;
+    letter-spacing: 0rem;
+    line-height: 2.5rem;
+  }
 }
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    .container-404 {
-        margin-top: 2rem;
-        padding-bottom: 10rem;
-    }
-    .container-404 h3 {
-        margin-top: 25px;
-        font-size: 48px;
-        margin-bottom: 16px;
-    }
-    .container-404 a {
-        font-family: "Press Start 2P", monospace;
-        text-decoration: none;
-        font-size: 32px;
-        line-height: 3rem;
-    }
-    #not-found-alien {
-        width: 300px;
-    }
-    #not-found-heading {
-        font-size: 48px;
-        letter-spacing: 0rem;
-        line-height: 4rem;
-    }
+@media only screen and (min-width: 1281px) {
+  .container-404 {
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+  }
+  .container-404 h3 {
+    margin-top: 25px;
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .container-404 a {
+    font-family: "Press Start 2P", monospace;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 3rem;
+  }
+  #not-found-alien {
+    width: 300px;
+  }
+  #not-found-heading {
+    font-size: 48px;
+    letter-spacing: 0rem;
+    line-height: 4rem;
+  }
 }
 
 /*********** This is the Back To Top Button CSS ***********/
 
 .back-to-top {
-    position: relative;
-    top: 25%;
-    left: 78%;
-    bottom: 15px;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 25%;
+  left: 78%;
+  bottom: 15px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 .back-to-top a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .back-to-top a:hover {
-    color: #ff3399;
+  color: #ff3399;
 }
 
 /* Back To Top Media Queries */
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    .back-to-top {
-        position: relative;
-        top: 21rem;
-        left: 90%;
-    }
+@media only screen and (min-width: 900px) {
+  .back-to-top {
+    position: relative;
+    top: 21rem;
+    left: 90%;
+  }
 }
 
 /* Back to Top Button for Contact Page */
 
 #contact-back-to-top {
-    position: relative;
-    top: 7.5rem;
+  position: relative;
+  top: 7.5rem;
 }
 
 /* Back to Top Button Media Queries for Contact Page */
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #contact-back-to-top {
-        position: relative;
-        top: 7rem;
-        left: 90%;
-    }
+@media only screen and (min-width: 1281px) {
+  #contact-back-to-top {
+    position: relative;
+    top: 7rem;
+    left: 90%;
+  }
 }
 
 /* Back To Top Button for Work Page, and Child Pages */
 
 #work-back-to-top {
-    position: relative;
-    top: 50%;
-    left: 78%;
-    bottom: 15;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 50%;
+  left: 78%;
+  bottom: 15;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 #web-dev-back-to-top {
-    display: none;
+  display: none;
 }
 
 #storyteller-back-to-top {
-    display: none;
+  display: none;
 }
 
 #fashion-back-to-top {
-    display: none;
+  display: none;
 }
 /* Back To Top Button Media Queries for Work Page */
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #work-back-to-top {
-        display: none;
-    }
+@media only screen and (min-width: 1281px) {
+  #work-back-to-top {
+    display: none;
+  }
 }
 
 /* Back To Top Button Media Queries for Web Developer Page */
-  
-  /* hi-res laptops and desktops */
-  
-@media only screen and (min-width:1281px) {
-    #web-dev-back-to-top {
-        display: block;
-        position: relative;
-        top: 7rem;
-        left: 90%;
-    }
+
+/* hi-res laptops and desktops */
+
+@media only screen and (min-width: 1281px) {
+  #web-dev-back-to-top {
+    display: block;
+    position: relative;
+    top: 10rem;
+    left: 90%;
+  }
 }
 
 /* Back To Top Button Media Queries for Storyteller Page */
-  
-  /* hi-res laptops and desktops */
-  
-  @media only screen and (min-width:1281px) {
-      #storyteller-back-to-top {
-          display: block;
-          position: relative;
-          top: 7rem;
-          left: 90%;
-      }
+
+/* hi-res laptops and desktops */
+
+@media only screen and (min-width: 1281px) {
+  #storyteller-back-to-top {
+    display: block;
+    position: relative;
+    top: 10rem;
+    left: 90%;
   }
+}
 
 /* Back To Top Button for Fashion Page */
 
 #fashion-back-to-top {
-    position: relative;
-    top: 50%;
-    left: 78%;
-    bottom: 15;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 50%;
+  left: 78%;
+  bottom: 15;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 #fashion-back-to-top {
-    display: none;
-    position: relative;
-    top: 7.5rem;
+  display: none;
+  position: relative;
+  top: 7.5rem;
 }
 
 /* Back to Top Button Media Queries for Fashion Page */
 
 /* hi-res laptops and desktops */
 
-@media only screen and (min-width:1281px) {
-    #fashion-back-to-top {
-        display: block;
-        position: relative;
-        top: 7rem;
-        left: 90%;
-    }
+@media only screen and (min-width: 1281px) {
+  #fashion-back-to-top {
+    display: block;
+    position: relative;
+    top: 10rem;
+    left: 90%;
+  }
 }
 
 /* Back To Top Button for Coming Soon Page */
 
 #coming-soon-back-to-top {
-    position: relative;
-    top: 50%;
-    left: 78%;
-    bottom: 15;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 50%;
+  left: 78%;
+  bottom: 15;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
 #coming-soon-back-to-top {
-    display: none;
-    position: relative;
-    top: 7.5rem;
+  display: none;
+  position: relative;
+  top: 7.5rem;
 }
 
 /* Back To Top Button Media Queries for Coming Soon Page*/
 
 /* small tablets */
 
-@media only screen and (min-width:1281px) {
-    #coming-soon-back-to-top {
-        position: relative;
-        top: 7rem;
-        left: 90%;
-    }
+@media only screen and (min-width: 1281px) {
+  #coming-soon-back-to-top {
+    position: relative;
+    top: 7rem;
+    left: 90%;
+  }
 }
 
 /****** This is the Back To Top Button for Post Page ********/
 
 #post-back-to-top a {
-    color: purple;
+  color: purple;
 }
 
 #post-back-to-top a:hover {
-    color: #ff3399;
+  color: #ff3399;
 }
 
 /****** This is the Back To Top Button for No Results Page ******/
 
 #no-results-back-to-top {
-    display: none;
+  display: none;
 }
 
 /************* This is the Footer CSS ***********/
@@ -3448,32 +3465,31 @@ label {
 /* Footer */
 
 #my_footer {
-    font-family: 'Roboto', sans-serif;
-    font-size: 11px;
-    padding-left: 20px;
-    color: white;
-    opacity: 0.7;
-    position: fixed;
-    bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  padding-left: 20px;
+  color: white;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 0;
 }
 
 /* Footer Media Queries */
 
 /* small tablets */
 
-@media only screen and (min-width:481px) {
-    #my_footer {
-        position: fixed;
-        bottom: 0;
-    }
+@media only screen and (min-width: 481px) {
+  #my_footer {
+    position: fixed;
+    bottom: 0;
+  }
 }
 
 /* regular tablets */
 
-@media only screen and (min-width:900px) {
-    #my_footer {
-        position: fixed;
-        bottom: 0;
-    }
+@media only screen and (min-width: 900px) {
+  #my_footer {
+    position: fixed;
+    bottom: 0;
+  }
 }
-
