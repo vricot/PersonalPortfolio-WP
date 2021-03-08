@@ -387,12 +387,18 @@ div#menu-icon {
 
 @media only screen and (min-width:1024px) {
     #right-nav {
-        margin-left: 67%;;
+        margin-left: 67%;
     }
 }
 
 @media only screen and (min-width:1281px) {
     #right-nav {
         margin-left: 74%;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    #right-nav {
+        margin-left: 78%;
     }
 }
